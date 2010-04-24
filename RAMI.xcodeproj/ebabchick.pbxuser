@@ -10,6 +10,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 92B860E61182928E00DC1AB1 /* RAMI */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* RAMI */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* RAMI */,
+		);
 		codeSenseManager = 92B860F61182929200DC1AB1 /* Code sense */;
 		executables = (
 			92B860E61182928E00DC1AB1 /* RAMI */,
@@ -39,6 +42,10 @@
 			};
 			PBXPerProjectTemplateStateSaveDate = 293769870;
 			PBXWorkspaceStateSaveDate = 293769870;
+		};
+		perUserProjectItems = {
+			92B8610B11829EDB00DC1AB1 /* PBXTextBookmark */ = 92B8610B11829EDB00DC1AB1 /* PBXTextBookmark */;
+			92B8610C11829EDB00DC1AB1 /* PBXTextBookmark */ = 92B8610C11829EDB00DC1AB1 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 92B860F51182929200DC1AB1 /* Source Control */;
 		userBuildSettings = {
@@ -84,5 +91,29 @@
 	92B860F61182929200DC1AB1 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	92B860F9118296DF00DC1AB1 /* GameBoardViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 624}}";
+			sepNavSelRange = "{1125, 0}";
+			sepNavVisRange = "{685, 448}";
+		};
+	};
+	92B8610B11829EDB00DC1AB1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92B860F9118296DF00DC1AB1 /* GameBoardViewController.h */;
+		rLen = 0;
+		rLoc = 9223372036854776712;
+		rType = 0;
+	};
+	92B8610C11829EDB00DC1AB1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92B860F9118296DF00DC1AB1 /* GameBoardViewController.h */;
+		name = "GameBoardViewController.h: 39";
+		rLen = 0;
+		rLoc = 1125;
+		rType = 0;
+		vrLen = 448;
+		vrLoc = 685;
 	};
 }
