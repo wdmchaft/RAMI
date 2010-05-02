@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GameBoardViewController.h"
 
 @interface RAMIAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;

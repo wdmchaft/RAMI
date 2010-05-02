@@ -16,8 +16,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	
     // Override point for customization after application launch
-	
-    [window makeKeyAndVisible];
+	GameBoardViewController* controller = [[GameBoardViewController alloc] initWithNibName:@"GameBoardViewController" bundle:[NSBundle mainBundle]];
+	[window addSubview:controller.view];
+	[window makeKeyAndVisible];
     
     return YES;
 }
