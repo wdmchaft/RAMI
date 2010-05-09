@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* PathFinderAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 441}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 489}";
+		};
+	};
+	1D3623250D0F684500981E51 /* PathFinderAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 574}}";
+			sepNavSelRange = "{577, 0}";
+			sepNavVisRange = "{0, 773}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* PathFinder */ = {
+		activeExec = 0;
+		executables = (
+			BEE2437D11829AF0002D6946 /* PathFinder */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* PathFinderViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 728}}";
+			sepNavSelRange = "{540, 67}";
+			sepNavVisRange = "{171, 771}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* PathFinderViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{533, 2627}\";\n            s = 0;\n        },\n                {\n            r = \"{3182, 9754}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 19163}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {721, 3682}}";
+			sepNavSelRange = "{2652, 0}";
+			sepNavVisRange = "{2144, 846}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BEE2437D11829AF0002D6946 /* PathFinder */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* PathFinder */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* PathFinder */,
+		);
+		codeSenseManager = BEE2438C11829AF5002D6946 /* Code sense */;
+		executables = (
+			BEE2437D11829AF0002D6946 /* PathFinder */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					543,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 295234504;
+			PBXWorkspaceStateSaveDate = 295234504;
+		};
+		perUserProjectItems = {
+			BE2DB5E41198EAAC001DBE29 /* PBXTextBookmark */ = BE2DB5E41198EAAC001DBE29 /* PBXTextBookmark */;
+			BE2DB5E61198EAAC001DBE29 /* PBXTextBookmark */ = BE2DB5E61198EAAC001DBE29 /* PBXTextBookmark */;
+			BE2DB61F1198EC60001DBE29 /* PBXTextBookmark */ = BE2DB61F1198EC60001DBE29 /* PBXTextBookmark */;
+			BE7AD499119007C700066196 /* PBXTextBookmark */ = BE7AD499119007C700066196 /* PBXTextBookmark */;
+			BE8281AF1194C7570062024E /* PBXTextBookmark */ = BE8281AF1194C7570062024E /* PBXTextBookmark */;
+			BE8281E01194C8AF0062024E /* PBXTextBookmark */ = BE8281E01194C8AF0062024E /* PBXTextBookmark */;
+			BE8281E91194C8F80062024E /* PBXTextBookmark */ = BE8281E91194C8F80062024E /* PBXTextBookmark */;
+			BE8281EA1194C8F80062024E /* PBXTextBookmark */ = BE8281EA1194C8F80062024E /* PBXTextBookmark */;
+			BEB7A737118FD31800D56F49 /* PBXTextBookmark */ = BEB7A737118FD31800D56F49 /* PBXTextBookmark */;
+			BEB7A74E118FD3CB00D56F49 /* PBXTextBookmark */ = BEB7A74E118FD3CB00D56F49 /* PBXTextBookmark */;
+			BEB7A74F118FD3CB00D56F49 /* PBXTextBookmark */ = BEB7A74F118FD3CB00D56F49 /* PBXTextBookmark */;
+			BEB7A750118FD3CB00D56F49 /* PBXTextBookmark */ = BEB7A750118FD3CB00D56F49 /* PBXTextBookmark */;
+			BEE243CB1182BD7E002D6946 /* PBXTextBookmark */ = BEE243CB1182BD7E002D6946 /* PBXTextBookmark */;
+			BEE243CC1182BD7E002D6946 /* PlistBookmark */ = BEE243CC1182BD7E002D6946 /* PlistBookmark */;
+		};
+		sourceControlManager = BEE2438B11829AF5002D6946 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BE2DB5E41198EAAC001DBE29 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* PathFinderViewController.h */;
+		name = "PathFinderViewController.h: 27";
+		rLen = 67;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 771;
+		vrLoc = 171;
+	};
+	BE2DB5E61198EAAC001DBE29 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PathFinderViewController.m */;
+		name = "PathFinderViewController.m: 528";
+		rLen = 0;
+		rLoc = 17687;
+		rType = 0;
+		vrLen = 940;
+		vrLoc = 17080;
+	};
+	BE2DB61F1198EC60001DBE29 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PathFinderViewController.m */;
+		name = "PathFinderViewController.m: 426";
+		rLen = 0;
+		rLoc = 15031;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 14523;
+	};
+	BE7AD499119007C700066196 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE988A3E118D54F40027E190 /* MyButton.h */;
+		name = "MyButton.h: 15";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 305;
+		vrLoc = 0;
+	};
+	BE8281AF1194C7570062024E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEB7A6F7118FCC7A00D56F49 /* Ramp.h */;
+		name = "Ramp.h: 14";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 0;
+	};
+	BE8281E01194C8AF0062024E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEE243B31182A0A3002D6946 /* MyPoint.m */;
+		name = "MyPoint.m: 28";
+		rLen = 0;
+		rLoc = 356;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 174;
+	};
+	BE8281E91194C8F80062024E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEB7A6F8118FCC7A00D56F49 /* Ramp.m */;
+		name = "Ramp.m: 234";
+		rLen = 0;
+		rLoc = 3940;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 3496;
+	};
+	BE8281EA1194C8F80062024E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE988A3F118D54F40027E190 /* MyButton.m */;
+		name = "MyButton.m: 17";
+		rLen = 0;
+		rLoc = 285;
+		rType = 0;
+		vrLen = 677;
+		vrLoc = 0;
+	};
+	BE988A04118D4DB40027E190 /* DetailVC.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 550}}";
+			sepNavSelRange = "{649, 39}";
+			sepNavVisRange = "{0, 695}";
+		};
+	};
+	BE988A05118D4DB40027E190 /* DetailVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 2254}}";
+			sepNavSelRange = "{281, 0}";
+			sepNavVisRange = "{40, 800}";
+		};
+	};
+	BE988A3E118D54F40027E190 /* MyButton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 502}}";
+			sepNavSelRange = "{236, 0}";
+			sepNavVisRange = "{0, 305}";
+		};
+	};
+	BE988A3F118D54F40027E190 /* MyButton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 574}}";
+			sepNavSelRange = "{285, 0}";
+			sepNavVisRange = "{0, 677}";
+		};
+	};
+	BEB7A6F7118FCC7A00D56F49 /* Ramp.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 527}}";
+			sepNavSelRange = "{212, 0}";
+			sepNavVisRange = "{0, 401}";
+		};
+	};
+	BEB7A6F8118FCC7A00D56F49 /* Ramp.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{222, 2904}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 3974}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {721, 1330}}";
+			sepNavSelRange = "{1037, 0}";
+			sepNavVisRange = "{593, 472}";
+		};
+	};
+	BEB7A737118FD31800D56F49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE988A05118D4DB40027E190 /* DetailVC.m */;
+		name = "DetailVC.m: 18";
+		rLen = 0;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 800;
+		vrLoc = 40;
+	};
+	BEB7A74E118FD3CB00D56F49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE988A04118D4DB40027E190 /* DetailVC.h */;
+		name = "DetailVC.h: 36";
+		rLen = 39;
+		rLoc = 649;
+		rType = 0;
+		vrLen = 695;
+		vrLoc = 0;
+	};
+	BEB7A74F118FD3CB00D56F49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEE243B21182A0A3002D6946 /* MyPoint.h */;
+		name = "MyPoint.h: 15";
+		rLen = 0;
+		rLoc = 207;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 0;
+	};
+	BEB7A750118FD3CB00D56F49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PathFinderAppDelegate.m */;
+		name = "PathFinderAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 577;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 0;
+	};
+	BEE2437D11829AF0002D6946 /* PathFinder */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PathFinder;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	BEE2438B11829AF5002D6946 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	BEE2438C11829AF5002D6946 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BEE243B21182A0A3002D6946 /* MyPoint.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 550}}";
+			sepNavSelRange = "{207, 0}";
+			sepNavVisRange = "{0, 400}";
+		};
+	};
+	BEE243B31182A0A3002D6946 /* MyPoint.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 742}}";
+			sepNavSelRange = "{356, 0}";
+			sepNavVisRange = "{174, 587}";
+		};
+	};
+	BEE243CB1182BD7E002D6946 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PathFinderAppDelegate.h */;
+		name = "PathFinderAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 489;
+		vrLoc = 0;
+	};
+	BEE243CC1182BD7E002D6946 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* PathFinder-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/PathFinder-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+}
