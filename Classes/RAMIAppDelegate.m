@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	
     // Override point for customization after application launch
-	FormulaBoardViewController* controller = [[FormulaBoardViewController alloc] initWithNibName:@"FormulaBoardViewController" bundle:nil];
+	CasinoBoardViewController* controller = [[CasinoBoardViewController alloc] initWithNibName:@"CasinoBoardViewController" bundle:nil];
 	[window addSubview:controller.view];
 	[window makeKeyAndVisible];
     
