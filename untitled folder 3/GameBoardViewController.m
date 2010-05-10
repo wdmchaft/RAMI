@@ -150,38 +150,42 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 	yvals[128] = 558;
 	yvals[129] = 563;
 	yvals[130] = 567;
-	yvals[131] = 571;
-	yvals[132] = 576;
-	yvals[133] = 581;
-	yvals[134] = 582;
-	yvals[135] = 588;
-	yvals[136] = 590;
-	yvals[137] = 594;
-	yvals[138] = 598;
-	yvals[139] = 604;
-	yvals[140] = 609;
-	yvals[141] = 615;
-	yvals[142] = 623;
-	yvals[143] = 627;
+	yvals[131] = 570;//
+	yvals[132] = 573;
+	yvals[133] = 576;
+	yvals[134] = 577;///
+	yvals[135] = 583;
+	yvals[136] = 585;
+	yvals[137] = 589;
+	yvals[138] = 593;
+	yvals[139] = 599;
+	yvals[140] = 604;
+	yvals[141] = 610;
+	yvals[142] = 618;
+	yvals[143] = 623;
 }
 
 - (void) setFirstOn:(BOOL)isOn
 {
 	[[ramps objectAtIndex:1] setRight:isOn];
-	[[ramps objectAtIndex:2] setRight:isOn];
-	[[ramps objectAtIndex:8] setRight:isOn];
+	if(ball.center.y <= [[ramps objectAtIndex:2] yStart])
+		[[ramps objectAtIndex:2] setRight:isOn];
+	if(ball.center.x >= 530)//[[ramps objectAtIndex:8] yStart])
+		[[ramps objectAtIndex:8] setRight:isOn];
 }
 
 - (void) setSecondOn:(BOOL)isOn
 {
 	[[ramps objectAtIndex:3] setRight:isOn];
-	[[ramps objectAtIndex:4] setRight:isOn];
+	if(ball.center.y <= [[ramps objectAtIndex:4] yStart])
+		[[ramps objectAtIndex:4] setRight:isOn];
 }
 
 - (void) setThirdOn:(BOOL)isOn
 {
 	[[ramps objectAtIndex:5] setRight:isOn];
-	[[ramps objectAtIndex:6] setRight:isOn];
+	if(ball.center.y <= [[ramps objectAtIndex:6] yStart])
+		[[ramps objectAtIndex:6] setRight:isOn];
 }
 
 - (void) setFourthOn:(BOOL)isOn
@@ -213,7 +217,7 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 		ballX = ball.center.x;
 		rampIndex++;
 	}
-	if(rampIndex >= [ramps count])
+	if(rampIndex >= [ramps count])// || timeStep == 134)
 	{
 		[timer invalidate];
 		timer = nil;
@@ -222,15 +226,21 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 	
 	int x = ballX + [[ramps objectAtIndex:rampIndex] offsetForTime:timeStep++];
 	
-	ball.center = CGPointMake(x,y-10);
+	ball.center = CGPointMake(x,y-12);
 }
 
 - (void) start
 {
 	rampIndex = 0;
-	ball.center = CGPointMake(530, yvals[0]-10);
+	ball.center = CGPointMake(530, yvals[0]-12);
 	ballX = 530;
 	timeStep = 0;
+	
+	[self setFirstOn:!bool_1];
+	[self setSecondOn:!bool_2];
+	[self setThirdOn:!bool_3];
+	[self setFourthOn:!bool_4];
+	
 	if(!timer)
 	{
 		[timer invalidate];
@@ -246,13 +256,14 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 	speedLabel.text = [NSString stringWithFormat:@"Speed: %.0f", playSpeed.value];
 }
 
--(IBAction) flip:(id)sender{
+-(IBAction) flip:(id)sender
+{
 	switch([sender tag])
 	{
 		case 0:
 		{
-			if (bool_1){
-				
+			if (bool_1)
+			{
 				[binary_read_1 setImage:[UIImage imageNamed:@"candy_1.png"]];
 				[binary_switch_1 setImage:[UIImage imageNamed:@"switch_1.png"]];
 				[switch_1_lower setImage:[UIImage imageNamed:@"right_1_lower.png"]];
@@ -348,6 +359,11 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 }
 */
 
+- (void) dur
+{
+	ball.center = CGPointMake(530,yvals[0]-16);
+}
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -356,6 +372,7 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 	bool_3 = true;
 	bool_4 = true;
 	timer = nil;
+	[NSTimer scheduledTimerWithTimeInterval:.01 target:self selector:@selector(dur) userInfo:nil repeats:NO];
 	[self setupRamps];
 }
 
