@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "GameBoardViewController.h"
+#import "FormulaBoardViewController.h"
+#import "CasinoBoardViewController.h"
 
 @interface RAMIAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;

@@ -271,7 +271,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
+									<integer>16</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -313,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GameBoardViewController.m</string>
+								<string>RAMIAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,20 +321,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GameBoardViewController.m</string>
+										<string>RAMIAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE8E685F119845B800C81052</string>
+										<string>BE8E687F11984A3D00C81052</string>
 										<key>history</key>
 										<array>
-											<string>BE2DB59E1198E452001DBE29</string>
 											<string>BE2DB5BA1198E836001DBE29</string>
-											<string>BE2DB5BB1198E836001DBE29</string>
 											<string>BE2DB5F71198EAE8001DBE29</string>
 											<string>BEA7465A1197413D00A8C955</string>
 											<string>BEA74699119748F400A8C955</string>
-											<string>BEA746A5119749DE00A8C955</string>
+											<string>BE8E687911984A3D00C81052</string>
+											<string>BE8E687A11984A3D00C81052</string>
+											<string>BE8E687B11984A3D00C81052</string>
+											<string>BE8E687C11984A3D00C81052</string>
+											<string>BE8E687D11984A3D00C81052</string>
+											<string>BE8E687E11984A3D00C81052</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -534,8 +537,8 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BE8C780B1198BA7D009A98BF</string>
-		<string>/Users/Will/Desktop/Mac Programming/iPad/Rami/untitled folder 3/RAMI.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/Will/Desktop/Mac Programming/iPad/Rami/untitled folder 3/RAMI.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>150 257 1218 771 0 0 1680 1028 </string>

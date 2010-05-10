@@ -48,6 +48,8 @@
 		92B860FD118296E000DC1AB1 /* GameBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B860FB118296E000DC1AB1 /* GameBoardViewController.xib */; };
 		BE2DB5A91198E677001DBE29 /* Ramp.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2DB5A81198E677001DBE29 /* Ramp.m */; };
 		BE2DB5B61198E758001DBE29 /* blue-ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE2DB5B51198E758001DBE29 /* blue-ball.gif */; };
+		BE8E686F119849C300C81052 /* CasinoBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E686D119849C300C81052 /* CasinoBoardViewController.m */; };
+		BE8E6870119849C300C81052 /* CasinoBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8E686E119849C300C81052 /* CasinoBoardViewController.xib */; };
 		BEA7465511973FA100A8C955 /* GreenBG.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA7465411973FA100A8C955 /* GreenBG.png */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +102,9 @@
 		BE2DB5A71198E677001DBE29 /* Ramp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ramp.h; sourceTree = "<group>"; };
 		BE2DB5A81198E677001DBE29 /* Ramp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ramp.m; sourceTree = "<group>"; };
 		BE2DB5B51198E758001DBE29 /* blue-ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "blue-ball.gif"; sourceTree = "<group>"; };
+		BE8E686C119849C300C81052 /* CasinoBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasinoBoardViewController.h; sourceTree = "<group>"; };
+		BE8E686D119849C300C81052 /* CasinoBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasinoBoardViewController.m; sourceTree = "<group>"; };
+		BE8E686E119849C300C81052 /* CasinoBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CasinoBoardViewController.xib; sourceTree = "<group>"; };
 		BEA7465411973FA100A8C955 /* GreenBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GreenBG.png; path = ../../../../GreenBG.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -148,6 +153,9 @@
 				925912F7118D7A56008C6386 /* FormulaBoardViewController.h */,
 				925912F8118D7A56008C6386 /* FormulaBoardViewController.m */,
 				925912F9118D7A56008C6386 /* FormulaBoardViewController.xib */,
+				BE8E686C119849C300C81052 /* CasinoBoardViewController.h */,
+				BE8E686D119849C300C81052 /* CasinoBoardViewController.m */,
+				BE8E686E119849C300C81052 /* CasinoBoardViewController.xib */,
 				BE2DB5A71198E677001DBE29 /* Ramp.h */,
 				BE2DB5A81198E677001DBE29 /* Ramp.m */,
 				BEA7465411973FA100A8C955 /* GreenBG.png */,
@@ -297,6 +305,7 @@
 				925912FB118D7A56008C6386 /* FormulaBoardViewController.xib in Resources */,
 				BE2DB5B61198E758001DBE29 /* blue-ball.gif in Resources */,
 				BEA7465511973FA100A8C955 /* GreenBG.png in Resources */,
+				BE8E6870119849C300C81052 /* CasinoBoardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +321,7 @@
 				92B860FC118296E000DC1AB1 /* GameBoardViewController.m in Sources */,
 				925912FA118D7A56008C6386 /* FormulaBoardViewController.m in Sources */,
 				BE2DB5A91198E677001DBE29 /* Ramp.m in Sources */,
+				BE8E686F119849C300C81052 /* CasinoBoardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

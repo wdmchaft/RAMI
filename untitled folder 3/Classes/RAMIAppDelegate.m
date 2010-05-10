@@ -16,7 +16,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	
     // Override point for customization after application launch
-	GameBoardViewController* controller = [[GameBoardViewController alloc] initWithNibName:@"GameBoardViewController" bundle:[NSBundle mainBundle]];
+	UIViewController *controller;
+	
+	if(NO) //GameBoardViewController
+		controller = [[GameBoardViewController alloc] initWithNibName:@"GameBoardViewController" bundle:[NSBundle mainBundle]];
+	else if(YES) //Candy
+		controller = [[CasinoBoardViewController alloc] initWithNibName:@"CasinoBoardViewController" bundle:[NSBundle mainBundle]];
+	else	//Forumula
+		controller = [[FormulaBoardViewController alloc] initWithNibName:@"FormulaBoardViewController" bundle:[NSBundle mainBundle]];
+		
 	[window addSubview:controller.view];
 	[window makeKeyAndVisible];
     
