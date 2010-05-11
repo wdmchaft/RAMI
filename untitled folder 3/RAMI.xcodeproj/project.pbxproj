@@ -49,31 +49,33 @@
 		BE01B1DE11984F6400B46AB2 /* blue car.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE01B1DD11984F6400B46AB2 /* blue car.gif */; };
 		BE2DB5A91198E677001DBE29 /* Ramp.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2DB5A81198E677001DBE29 /* Ramp.m */; };
 		BE2DB5B61198E758001DBE29 /* blue-ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE2DB5B51198E758001DBE29 /* blue-ball.gif */; };
+		BE78B79511991033004C94B8 /* blue-cball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B79411991033004C94B8 /* blue-cball.gif */; };
+		BE78B79A11991459004C94B8 /* CasinoRamp.m in Sources */ = {isa = PBXBuildFile; fileRef = BE78B79911991459004C94B8 /* CasinoRamp.m */; };
+		BE78B83611991C68004C94B8 /* casino_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B81F11991C68004C94B8 /* casino_0.png */; };
+		BE78B83711991C68004C94B8 /* casino_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82011991C68004C94B8 /* casino_1.png */; };
+		BE78B83811991C68004C94B8 /* casino_foundation.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82111991C68004C94B8 /* casino_foundation.png */; };
+		BE78B83911991C68004C94B8 /* casino_left_1_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82211991C68004C94B8 /* casino_left_1_lower.png */; };
+		BE78B83A11991C68004C94B8 /* casino_left_1_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82311991C68004C94B8 /* casino_left_1_upper.png */; };
+		BE78B83B11991C68004C94B8 /* casino_left_2_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82411991C68004C94B8 /* casino_left_2_lower.png */; };
+		BE78B83C11991C68004C94B8 /* casino_left_2_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82511991C68004C94B8 /* casino_left_2_upper.png */; };
+		BE78B83D11991C68004C94B8 /* casino_left_3_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82611991C68004C94B8 /* casino_left_3_lower.png */; };
+		BE78B83E11991C68004C94B8 /* casino_left_3_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82711991C68004C94B8 /* casino_left_3_upper.png */; };
+		BE78B83F11991C68004C94B8 /* casino_left_4_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82811991C68004C94B8 /* casino_left_4_lower.png */; };
+		BE78B84011991C68004C94B8 /* casino_left_4_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82911991C68004C94B8 /* casino_left_4_upper.png */; };
+		BE78B84111991C68004C94B8 /* casino_one.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82A11991C68004C94B8 /* casino_one.png */; };
+		BE78B84211991C68004C94B8 /* casino_releaser.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82B11991C68004C94B8 /* casino_releaser.png */; };
+		BE78B84311991C68004C94B8 /* casino_right_1_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82C11991C68004C94B8 /* casino_right_1_lower.png */; };
+		BE78B84411991C68004C94B8 /* casino_right_1_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82D11991C68004C94B8 /* casino_right_1_upper.png */; };
+		BE78B84511991C68004C94B8 /* casino_right_2_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82E11991C68004C94B8 /* casino_right_2_lower.png */; };
+		BE78B84611991C68004C94B8 /* casino_right_2_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82F11991C68004C94B8 /* casino_right_2_upper.png */; };
+		BE78B84711991C68004C94B8 /* casino_right_3_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B83011991C68004C94B8 /* casino_right_3_lower.png */; };
+		BE78B84811991C68004C94B8 /* casino_right_3_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B83111991C68004C94B8 /* casino_right_3_upper.png */; };
+		BE78B84911991C68004C94B8 /* casino_right_4_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B83211991C68004C94B8 /* casino_right_4_lower.png */; };
+		BE78B84A11991C68004C94B8 /* casino_right_4_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B83311991C68004C94B8 /* casino_right_4_upper.png */; };
+		BE78B84B11991C68004C94B8 /* casino_switch_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B83411991C68004C94B8 /* casino_switch_0.png */; };
+		BE78B84C11991C68004C94B8 /* casino_switch_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B83511991C68004C94B8 /* casino_switch_1.png */; };
 		BE8E686F119849C300C81052 /* CasinoBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E686D119849C300C81052 /* CasinoBoardViewController.m */; };
 		BE8E6870119849C300C81052 /* CasinoBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8E686E119849C300C81052 /* CasinoBoardViewController.xib */; };
-		BEFD20521198523C004B689D /* casino_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20281198523C004B689D /* casino_0.png */; };
-		BEFD20531198523C004B689D /* casino_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20291198523C004B689D /* casino_1.png */; };
-		BEFD20541198523C004B689D /* casino_foundation.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD202A1198523C004B689D /* casino_foundation.png */; };
-		BEFD20551198523C004B689D /* casino_left_1_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD202B1198523C004B689D /* casino_left_1_lower.png */; };
-		BEFD20561198523C004B689D /* casino_left_1_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD202C1198523C004B689D /* casino_left_1_upper.png */; };
-		BEFD20571198523C004B689D /* casino_left_2_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD202D1198523C004B689D /* casino_left_2_lower.png */; };
-		BEFD20581198523C004B689D /* casino_left_2_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD202E1198523C004B689D /* casino_left_2_upper.png */; };
-		BEFD20591198523C004B689D /* casino_left_3_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD202F1198523C004B689D /* casino_left_3_lower.png */; };
-		BEFD205A1198523C004B689D /* casino_left_3_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20301198523C004B689D /* casino_left_3_upper.png */; };
-		BEFD205B1198523C004B689D /* casino_left_4_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20311198523C004B689D /* casino_left_4_lower.png */; };
-		BEFD205C1198523C004B689D /* casino_left_4_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20321198523C004B689D /* casino_left_4_upper.png */; };
-		BEFD205D1198523C004B689D /* casino_one.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20331198523C004B689D /* casino_one.png */; };
-		BEFD205E1198523C004B689D /* casino_releaser.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20341198523C004B689D /* casino_releaser.png */; };
-		BEFD205F1198523C004B689D /* casino_right_1_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20351198523C004B689D /* casino_right_1_lower.png */; };
-		BEFD20601198523C004B689D /* casino_right_1_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20361198523C004B689D /* casino_right_1_upper.png */; };
-		BEFD20611198523C004B689D /* casino_right_2_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20371198523C004B689D /* casino_right_2_lower.png */; };
-		BEFD20621198523C004B689D /* casino_right_2_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20381198523C004B689D /* casino_right_2_upper.png */; };
-		BEFD20631198523C004B689D /* casino_right_3_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20391198523C004B689D /* casino_right_3_lower.png */; };
-		BEFD20641198523C004B689D /* casino_right_3_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD203A1198523C004B689D /* casino_right_3_upper.png */; };
-		BEFD20651198523C004B689D /* casino_right_4_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD203B1198523C004B689D /* casino_right_4_lower.png */; };
-		BEFD20661198523C004B689D /* casino_right_4_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD203C1198523C004B689D /* casino_right_4_upper.png */; };
-		BEFD20671198523C004B689D /* casino_switch_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD203D1198523C004B689D /* casino_switch_0.png */; };
-		BEFD20681198523C004B689D /* casino_switch_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD203E1198523C004B689D /* casino_switch_1.png */; };
 		BEFD20691198523C004B689D /* formula_1_left.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20401198523C004B689D /* formula_1_left.png */; };
 		BEFD206A1198523C004B689D /* formula_1_right.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20411198523C004B689D /* formula_1_right.png */; };
 		BEFD206B1198523C004B689D /* formula_2_left.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20421198523C004B689D /* formula_2_left.png */; };
@@ -145,32 +147,35 @@
 		BE2DB5A71198E677001DBE29 /* Ramp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ramp.h; sourceTree = "<group>"; };
 		BE2DB5A81198E677001DBE29 /* Ramp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ramp.m; sourceTree = "<group>"; };
 		BE2DB5B51198E758001DBE29 /* blue-ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "blue-ball.gif"; sourceTree = "<group>"; };
+		BE78B79411991033004C94B8 /* blue-cball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "blue-cball.gif"; sourceTree = "<group>"; };
+		BE78B79811991459004C94B8 /* CasinoRamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasinoRamp.h; sourceTree = "<group>"; };
+		BE78B79911991459004C94B8 /* CasinoRamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasinoRamp.m; sourceTree = "<group>"; };
+		BE78B81F11991C68004C94B8 /* casino_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_0.png; sourceTree = "<group>"; };
+		BE78B82011991C68004C94B8 /* casino_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_1.png; sourceTree = "<group>"; };
+		BE78B82111991C68004C94B8 /* casino_foundation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_foundation.png; sourceTree = "<group>"; };
+		BE78B82211991C68004C94B8 /* casino_left_1_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_1_lower.png; sourceTree = "<group>"; };
+		BE78B82311991C68004C94B8 /* casino_left_1_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_1_upper.png; sourceTree = "<group>"; };
+		BE78B82411991C68004C94B8 /* casino_left_2_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_2_lower.png; sourceTree = "<group>"; };
+		BE78B82511991C68004C94B8 /* casino_left_2_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_2_upper.png; sourceTree = "<group>"; };
+		BE78B82611991C68004C94B8 /* casino_left_3_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_3_lower.png; sourceTree = "<group>"; };
+		BE78B82711991C68004C94B8 /* casino_left_3_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_3_upper.png; sourceTree = "<group>"; };
+		BE78B82811991C68004C94B8 /* casino_left_4_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_4_lower.png; sourceTree = "<group>"; };
+		BE78B82911991C68004C94B8 /* casino_left_4_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_4_upper.png; sourceTree = "<group>"; };
+		BE78B82A11991C68004C94B8 /* casino_one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_one.png; sourceTree = "<group>"; };
+		BE78B82B11991C68004C94B8 /* casino_releaser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_releaser.png; sourceTree = "<group>"; };
+		BE78B82C11991C68004C94B8 /* casino_right_1_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_1_lower.png; sourceTree = "<group>"; };
+		BE78B82D11991C68004C94B8 /* casino_right_1_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_1_upper.png; sourceTree = "<group>"; };
+		BE78B82E11991C68004C94B8 /* casino_right_2_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_2_lower.png; sourceTree = "<group>"; };
+		BE78B82F11991C68004C94B8 /* casino_right_2_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_2_upper.png; sourceTree = "<group>"; };
+		BE78B83011991C68004C94B8 /* casino_right_3_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_3_lower.png; sourceTree = "<group>"; };
+		BE78B83111991C68004C94B8 /* casino_right_3_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_3_upper.png; sourceTree = "<group>"; };
+		BE78B83211991C68004C94B8 /* casino_right_4_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_4_lower.png; sourceTree = "<group>"; };
+		BE78B83311991C68004C94B8 /* casino_right_4_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_4_upper.png; sourceTree = "<group>"; };
+		BE78B83411991C68004C94B8 /* casino_switch_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_switch_0.png; sourceTree = "<group>"; };
+		BE78B83511991C68004C94B8 /* casino_switch_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_switch_1.png; sourceTree = "<group>"; };
 		BE8E686C119849C300C81052 /* CasinoBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasinoBoardViewController.h; sourceTree = "<group>"; };
 		BE8E686D119849C300C81052 /* CasinoBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasinoBoardViewController.m; sourceTree = "<group>"; };
 		BE8E686E119849C300C81052 /* CasinoBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CasinoBoardViewController.xib; sourceTree = "<group>"; };
-		BEFD20281198523C004B689D /* casino_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_0.png; sourceTree = "<group>"; };
-		BEFD20291198523C004B689D /* casino_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_1.png; sourceTree = "<group>"; };
-		BEFD202A1198523C004B689D /* casino_foundation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_foundation.png; sourceTree = "<group>"; };
-		BEFD202B1198523C004B689D /* casino_left_1_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_1_lower.png; sourceTree = "<group>"; };
-		BEFD202C1198523C004B689D /* casino_left_1_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_1_upper.png; sourceTree = "<group>"; };
-		BEFD202D1198523C004B689D /* casino_left_2_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_2_lower.png; sourceTree = "<group>"; };
-		BEFD202E1198523C004B689D /* casino_left_2_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_2_upper.png; sourceTree = "<group>"; };
-		BEFD202F1198523C004B689D /* casino_left_3_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_3_lower.png; sourceTree = "<group>"; };
-		BEFD20301198523C004B689D /* casino_left_3_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_3_upper.png; sourceTree = "<group>"; };
-		BEFD20311198523C004B689D /* casino_left_4_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_4_lower.png; sourceTree = "<group>"; };
-		BEFD20321198523C004B689D /* casino_left_4_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_left_4_upper.png; sourceTree = "<group>"; };
-		BEFD20331198523C004B689D /* casino_one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_one.png; sourceTree = "<group>"; };
-		BEFD20341198523C004B689D /* casino_releaser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_releaser.png; sourceTree = "<group>"; };
-		BEFD20351198523C004B689D /* casino_right_1_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_1_lower.png; sourceTree = "<group>"; };
-		BEFD20361198523C004B689D /* casino_right_1_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_1_upper.png; sourceTree = "<group>"; };
-		BEFD20371198523C004B689D /* casino_right_2_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_2_lower.png; sourceTree = "<group>"; };
-		BEFD20381198523C004B689D /* casino_right_2_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_2_upper.png; sourceTree = "<group>"; };
-		BEFD20391198523C004B689D /* casino_right_3_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_3_lower.png; sourceTree = "<group>"; };
-		BEFD203A1198523C004B689D /* casino_right_3_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_3_upper.png; sourceTree = "<group>"; };
-		BEFD203B1198523C004B689D /* casino_right_4_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_4_lower.png; sourceTree = "<group>"; };
-		BEFD203C1198523C004B689D /* casino_right_4_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_4_upper.png; sourceTree = "<group>"; };
-		BEFD203D1198523C004B689D /* casino_switch_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_switch_0.png; sourceTree = "<group>"; };
-		BEFD203E1198523C004B689D /* casino_switch_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_switch_1.png; sourceTree = "<group>"; };
 		BEFD20401198523C004B689D /* formula_1_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formula_1_left.png; sourceTree = "<group>"; };
 		BEFD20411198523C004B689D /* formula_1_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formula_1_right.png; sourceTree = "<group>"; };
 		BEFD20421198523C004B689D /* formula_2_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formula_2_left.png; sourceTree = "<group>"; };
@@ -245,7 +250,9 @@
 				BE2DB5A81198E677001DBE29 /* Ramp.m */,
 				BEFD208311985351004B689D /* FormulaRamp.h */,
 				BEFD208411985369004B689D /* FormulaRamp.m */,
-				BEFD20271198523C004B689D /* casinoskins */,
+				BE78B79811991459004C94B8 /* CasinoRamp.h */,
+				BE78B79911991459004C94B8 /* CasinoRamp.m */,
+				BE78B81E11991C68004C94B8 /* casinoskins */,
 				BEFD203F1198523C004B689D /* formulaskins */,
 				92591211118BEBE5008C6386 /* candyskins */,
 			);
@@ -266,6 +273,7 @@
 			children = (
 				BE01B1DD11984F6400B46AB2 /* blue car.gif */,
 				BE2DB5B51198E758001DBE29 /* blue-ball.gif */,
+				BE78B79411991033004C94B8 /* blue-cball.gif */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* RAMI-Info.plist */,
 			);
@@ -318,32 +326,32 @@
 			name = candyskins;
 			sourceTree = "<group>";
 		};
-		BEFD20271198523C004B689D /* casinoskins */ = {
+		BE78B81E11991C68004C94B8 /* casinoskins */ = {
 			isa = PBXGroup;
 			children = (
-				BEFD20281198523C004B689D /* casino_0.png */,
-				BEFD20291198523C004B689D /* casino_1.png */,
-				BEFD202A1198523C004B689D /* casino_foundation.png */,
-				BEFD202B1198523C004B689D /* casino_left_1_lower.png */,
-				BEFD202C1198523C004B689D /* casino_left_1_upper.png */,
-				BEFD202D1198523C004B689D /* casino_left_2_lower.png */,
-				BEFD202E1198523C004B689D /* casino_left_2_upper.png */,
-				BEFD202F1198523C004B689D /* casino_left_3_lower.png */,
-				BEFD20301198523C004B689D /* casino_left_3_upper.png */,
-				BEFD20311198523C004B689D /* casino_left_4_lower.png */,
-				BEFD20321198523C004B689D /* casino_left_4_upper.png */,
-				BEFD20331198523C004B689D /* casino_one.png */,
-				BEFD20341198523C004B689D /* casino_releaser.png */,
-				BEFD20351198523C004B689D /* casino_right_1_lower.png */,
-				BEFD20361198523C004B689D /* casino_right_1_upper.png */,
-				BEFD20371198523C004B689D /* casino_right_2_lower.png */,
-				BEFD20381198523C004B689D /* casino_right_2_upper.png */,
-				BEFD20391198523C004B689D /* casino_right_3_lower.png */,
-				BEFD203A1198523C004B689D /* casino_right_3_upper.png */,
-				BEFD203B1198523C004B689D /* casino_right_4_lower.png */,
-				BEFD203C1198523C004B689D /* casino_right_4_upper.png */,
-				BEFD203D1198523C004B689D /* casino_switch_0.png */,
-				BEFD203E1198523C004B689D /* casino_switch_1.png */,
+				BE78B81F11991C68004C94B8 /* casino_0.png */,
+				BE78B82011991C68004C94B8 /* casino_1.png */,
+				BE78B82111991C68004C94B8 /* casino_foundation.png */,
+				BE78B82211991C68004C94B8 /* casino_left_1_lower.png */,
+				BE78B82311991C68004C94B8 /* casino_left_1_upper.png */,
+				BE78B82411991C68004C94B8 /* casino_left_2_lower.png */,
+				BE78B82511991C68004C94B8 /* casino_left_2_upper.png */,
+				BE78B82611991C68004C94B8 /* casino_left_3_lower.png */,
+				BE78B82711991C68004C94B8 /* casino_left_3_upper.png */,
+				BE78B82811991C68004C94B8 /* casino_left_4_lower.png */,
+				BE78B82911991C68004C94B8 /* casino_left_4_upper.png */,
+				BE78B82A11991C68004C94B8 /* casino_one.png */,
+				BE78B82B11991C68004C94B8 /* casino_releaser.png */,
+				BE78B82C11991C68004C94B8 /* casino_right_1_lower.png */,
+				BE78B82D11991C68004C94B8 /* casino_right_1_upper.png */,
+				BE78B82E11991C68004C94B8 /* casino_right_2_lower.png */,
+				BE78B82F11991C68004C94B8 /* casino_right_2_upper.png */,
+				BE78B83011991C68004C94B8 /* casino_right_3_lower.png */,
+				BE78B83111991C68004C94B8 /* casino_right_3_upper.png */,
+				BE78B83211991C68004C94B8 /* casino_right_4_lower.png */,
+				BE78B83311991C68004C94B8 /* casino_right_4_upper.png */,
+				BE78B83411991C68004C94B8 /* casino_switch_0.png */,
+				BE78B83511991C68004C94B8 /* casino_switch_1.png */,
 			);
 			path = casinoskins;
 			sourceTree = "<group>";
@@ -450,29 +458,6 @@
 				BE8E6870119849C300C81052 /* CasinoBoardViewController.xib in Resources */,
 				BE01B1D811984D7000B46AB2 /* FormulaBoardViewController.xib in Resources */,
 				BE01B1DE11984F6400B46AB2 /* blue car.gif in Resources */,
-				BEFD20521198523C004B689D /* casino_0.png in Resources */,
-				BEFD20531198523C004B689D /* casino_1.png in Resources */,
-				BEFD20541198523C004B689D /* casino_foundation.png in Resources */,
-				BEFD20551198523C004B689D /* casino_left_1_lower.png in Resources */,
-				BEFD20561198523C004B689D /* casino_left_1_upper.png in Resources */,
-				BEFD20571198523C004B689D /* casino_left_2_lower.png in Resources */,
-				BEFD20581198523C004B689D /* casino_left_2_upper.png in Resources */,
-				BEFD20591198523C004B689D /* casino_left_3_lower.png in Resources */,
-				BEFD205A1198523C004B689D /* casino_left_3_upper.png in Resources */,
-				BEFD205B1198523C004B689D /* casino_left_4_lower.png in Resources */,
-				BEFD205C1198523C004B689D /* casino_left_4_upper.png in Resources */,
-				BEFD205D1198523C004B689D /* casino_one.png in Resources */,
-				BEFD205E1198523C004B689D /* casino_releaser.png in Resources */,
-				BEFD205F1198523C004B689D /* casino_right_1_lower.png in Resources */,
-				BEFD20601198523C004B689D /* casino_right_1_upper.png in Resources */,
-				BEFD20611198523C004B689D /* casino_right_2_lower.png in Resources */,
-				BEFD20621198523C004B689D /* casino_right_2_upper.png in Resources */,
-				BEFD20631198523C004B689D /* casino_right_3_lower.png in Resources */,
-				BEFD20641198523C004B689D /* casino_right_3_upper.png in Resources */,
-				BEFD20651198523C004B689D /* casino_right_4_lower.png in Resources */,
-				BEFD20661198523C004B689D /* casino_right_4_upper.png in Resources */,
-				BEFD20671198523C004B689D /* casino_switch_0.png in Resources */,
-				BEFD20681198523C004B689D /* casino_switch_1.png in Resources */,
 				BEFD20691198523C004B689D /* formula_1_left.png in Resources */,
 				BEFD206A1198523C004B689D /* formula_1_right.png in Resources */,
 				BEFD206B1198523C004B689D /* formula_2_left.png in Resources */,
@@ -491,6 +476,30 @@
 				BEFD20781198523C004B689D /* formula_switch_1.png in Resources */,
 				BEFD20791198523C004B689D /* formula_yellow_light.png in Resources */,
 				BEFD207A1198523C004B689D /* formula_zero.png in Resources */,
+				BE78B79511991033004C94B8 /* blue-cball.gif in Resources */,
+				BE78B83611991C68004C94B8 /* casino_0.png in Resources */,
+				BE78B83711991C68004C94B8 /* casino_1.png in Resources */,
+				BE78B83811991C68004C94B8 /* casino_foundation.png in Resources */,
+				BE78B83911991C68004C94B8 /* casino_left_1_lower.png in Resources */,
+				BE78B83A11991C68004C94B8 /* casino_left_1_upper.png in Resources */,
+				BE78B83B11991C68004C94B8 /* casino_left_2_lower.png in Resources */,
+				BE78B83C11991C68004C94B8 /* casino_left_2_upper.png in Resources */,
+				BE78B83D11991C68004C94B8 /* casino_left_3_lower.png in Resources */,
+				BE78B83E11991C68004C94B8 /* casino_left_3_upper.png in Resources */,
+				BE78B83F11991C68004C94B8 /* casino_left_4_lower.png in Resources */,
+				BE78B84011991C68004C94B8 /* casino_left_4_upper.png in Resources */,
+				BE78B84111991C68004C94B8 /* casino_one.png in Resources */,
+				BE78B84211991C68004C94B8 /* casino_releaser.png in Resources */,
+				BE78B84311991C68004C94B8 /* casino_right_1_lower.png in Resources */,
+				BE78B84411991C68004C94B8 /* casino_right_1_upper.png in Resources */,
+				BE78B84511991C68004C94B8 /* casino_right_2_lower.png in Resources */,
+				BE78B84611991C68004C94B8 /* casino_right_2_upper.png in Resources */,
+				BE78B84711991C68004C94B8 /* casino_right_3_lower.png in Resources */,
+				BE78B84811991C68004C94B8 /* casino_right_3_upper.png in Resources */,
+				BE78B84911991C68004C94B8 /* casino_right_4_lower.png in Resources */,
+				BE78B84A11991C68004C94B8 /* casino_right_4_upper.png in Resources */,
+				BE78B84B11991C68004C94B8 /* casino_switch_0.png in Resources */,
+				BE78B84C11991C68004C94B8 /* casino_switch_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +517,7 @@
 				BE2DB5A91198E677001DBE29 /* Ramp.m in Sources */,
 				BE8E686F119849C300C81052 /* CasinoBoardViewController.m in Sources */,
 				BEFD208511985369004B689D /* FormulaRamp.m in Sources */,
+				BE78B79A11991459004C94B8 /* CasinoRamp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

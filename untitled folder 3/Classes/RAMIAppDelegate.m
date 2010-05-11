@@ -20,7 +20,7 @@
 	
 	if(NO) //GameBoardViewController
 		controller = [[GameBoardViewController alloc] initWithNibName:@"GameBoardViewController" bundle:[NSBundle mainBundle]];
-	else if(NO) //Candy
+	else if(NO) //Casino
 		controller = [[CasinoBoardViewController alloc] initWithNibName:@"CasinoBoardViewController" bundle:[NSBundle mainBundle]];
 	else	//Forumula
 		controller = [[FormulaBoardViewController alloc] initWithNibName:@"FormulaBoardViewController" bundle:[NSBundle mainBundle]];

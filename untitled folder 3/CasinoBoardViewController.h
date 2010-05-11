@@ -31,6 +31,13 @@
 	IBOutlet UIButton* touchzone_3;
 	IBOutlet UIButton* touchzone_4;
 	
+	IBOutlet UIImageView *ball;
+	NSMutableArray *ramps;
+	int ballX;
+	int yvals[128];
+	int timeStep;
+	int rampIndex;
+	NSTimer *timer;
 }
 
 @property IBOutlet (retain) UIImageView* binary_switch_1;

@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>BE10538C119859290059152B</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>FormulaRamp.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>BE10538D119859290059152B</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>FormulaRamp.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>BE78B76B11990A71004C94B8</string>
-						<key>history</key>
-						<array>
-							<string>BE78B738119906C4004C94B8</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {745, 786}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>1230 201 745 827 0 0 1680 1028 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -312,7 +271,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>16</integer>
+									<integer>3</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -336,7 +296,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>115 257 1218 771 0 0 1680 1028 </string>
+						<string>16 257 1218 771 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -354,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FormulaBoardViewController.m</string>
+								<string>RAMIAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -362,26 +322,28 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FormulaBoardViewController.m</string>
+										<string>RAMIAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE78B76A11990A71004C94B8</string>
+										<string>BE78B86811991EF5004C94B8</string>
 										<key>history</key>
 										<array>
-											<string>BE2DB5BA1198E836001DBE29</string>
 											<string>BE8E687D11984A3D00C81052</string>
-											<string>BE01B1E01198514500B46AB2</string>
 											<string>BEFD20AC11985817004B689D</string>
-											<string>BEFD20AD11985817004B689D</string>
 											<string>BEFD20AE11985817004B689D</string>
-											<string>BEFD20AF11985817004B689D</string>
 											<string>BEFD20B011985817004B689D</string>
-											<string>BEFD20B111985817004B689D</string>
 											<string>BEFD20B211985817004B689D</string>
 											<string>BEFD20B311985817004B689D</string>
-											<string>BE78B6A91198AB4F004C94B8</string>
-											<string>BE78B6AA1198AB4F004C94B8</string>
+											<string>BE78B7B211991676004C94B8</string>
+											<string>BE78B7B311991676004C94B8</string>
+											<string>BE78B7C011991682004C94B8</string>
+											<string>BE78B7CE11991713004C94B8</string>
+											<string>BE78B7F0119919D5004C94B8</string>
+											<string>BE78B80211991AB4004C94B8</string>
+											<string>BE78B80611991AE4004C94B8</string>
+											<string>BE78B86311991EAA004C94B8</string>
+											<string>BE78B7EF119919D5004C94B8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -395,7 +357,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1010, 725}}</string>
 								<key>RubberWindowFrame</key>
-								<string>115 257 1218 771 0 0 1680 1028 </string>
+								<string>16 257 1218 771 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -415,7 +377,7 @@
 								<key>Frame</key>
 								<string>{{0, 730}, {1010, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>115 257 1218 771 0 0 1680 1028 </string>
+								<string>16 257 1218 771 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -581,12 +543,11 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BE8C780B1198BA7D009A98BF</string>
-		<string>BE10538C119859290059152B</string>
-		<string>/Users/Will/Desktop/Mac Programming/iPad/Rami/untitled folder 3/RAMI.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/Will/Desktop/Mac Programming/iPad/Rami/untitled folder 3/RAMI.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>115 257 1218 771 0 0 1680 1028 </string>
+	<string>16 257 1218 771 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -607,7 +568,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>CasinoBoardViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -624,6 +585,8 @@
 							<string>185pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
