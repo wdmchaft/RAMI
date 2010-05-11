@@ -7,6 +7,9 @@
 //
 
 #import "RAMIAppDelegate.h"
+#import "GameBoardViewController.h"
+#import "FormulaBoardViewController.h"
+#import "CasinoBoardViewController.h"
 
 @implementation RAMIAppDelegate
 
@@ -16,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	
     // Override point for customization after application launch
-	GameBoardViewController* controller = [[GameBoardViewController alloc] initWithNibName:@"GameBoardViewController" bundle:[NSBundle mainBundle]];
+	CasinoBoardViewController* controller = [[CasinoBoardViewController alloc] initWithNibName:@"CasinoBoardViewController" bundle:nil];
 	[window addSubview:controller.view];
 	[window makeKeyAndVisible];
     

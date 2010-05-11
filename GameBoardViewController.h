@@ -45,26 +45,26 @@
 
 
 
-@property IBOutlet UIImageView* binary_read_1;
-@property IBOutlet UIImageView* binary_read_2;
-@property IBOutlet UIImageView* binary_read_3;
-@property IBOutlet UIImageView* binary_read_4;
-@property IBOutlet UIImageView* binary_switch_1;
-@property IBOutlet UIImageView* binary_switch_2;
-@property IBOutlet UIImageView* binary_switch_3;
-@property IBOutlet UIImageView* binary_switch_4;
-@property IBOutlet UIImageView* switch_1_upper;
-@property IBOutlet UIImageView* switch_1_lower;
-@property IBOutlet UIImageView* switch_2_upper;
-@property IBOutlet UIImageView* switch_2_lower;	
-@property IBOutlet UIImageView* switch_3_upper;
-@property IBOutlet UIImageView* switch_3_lower;	
-@property IBOutlet UIImageView* switch_4_upper;
-@property IBOutlet UIImageView* switch_4_lower;
-@property IBOutlet UIButton* touchzone_1;
-@property IBOutlet UIButton* touchzone_2;
-@property IBOutlet UIButton* touchzone_3;
-@property IBOutlet UIButton* touchzone_4;
+@property IBOutlet (retain) UIImageView* binary_read_1;
+@property IBOutlet (retain) UIImageView* binary_read_2;
+@property IBOutlet (retain) UIImageView* binary_read_3;
+@property IBOutlet (retain) UIImageView* binary_read_4;
+@property IBOutlet (retain) UIImageView* binary_switch_1;
+@property IBOutlet (retain) UIImageView* binary_switch_2;
+@property IBOutlet (retain) UIImageView* binary_switch_3;
+@property IBOutlet (retain) UIImageView* binary_switch_4;
+@property IBOutlet (retain) UIImageView* switch_1_upper;
+@property IBOutlet (retain) UIImageView* switch_1_lower;
+@property IBOutlet (retain) UIImageView* switch_2_upper;
+@property IBOutlet (retain) UIImageView* switch_2_lower;	
+@property IBOutlet (retain) UIImageView* switch_3_upper;
+@property IBOutlet (retain) UIImageView* switch_3_lower;	
+@property IBOutlet (retain) UIImageView* switch_4_upper;
+@property IBOutlet (retain) UIImageView* switch_4_lower;
+@property IBOutlet (retain) UIButton* touchzone_1;
+@property IBOutlet (retain) UIButton* touchzone_2;
+@property IBOutlet (retain) UIButton* touchzone_3;
+@property IBOutlet (retain) UIButton* touchzone_4;
 -(IBAction) flip:(id)sender;
 
 @end

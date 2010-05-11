@@ -15,6 +15,7 @@
 @synthesize binary_switch_1, binary_switch_2, binary_switch_3, binary_switch_4;
 @synthesize switch_1_lower, switch_1_upper, switch_2_lower, switch_2_upper,
 switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
+@synthesize touchzone_1, touchzone_2, touchzone_3, touchzone_4;
 
 -(IBAction) flip:(id)sender{
 	switch([sender tag])
@@ -139,6 +140,28 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 
 
 - (void)dealloc {
+	
+	[binary_read_4 release];
+	[binary_read_3 release];
+	[binary_read_2 release];
+	[binary_read_1 release];
+	[binary_switch_4 release];
+	[binary_switch_3 release];
+	[binary_switch_2 release];
+	[binary_switch_1 release];
+	[switch_4_upper release];
+	[switch_3_upper release];
+	[switch_2_upper release];
+	[switch_1_upper release];
+	[switch_4_lower release];
+	[switch_3_lower release];
+	[switch_2_lower release];
+	[switch_1_lower release];
+	[touchzone_1 release];
+	[touchzone_2 release];
+	[touchzone_3 release];
+	[touchzone_4 release];
+	
     [super dealloc];
 }
 
