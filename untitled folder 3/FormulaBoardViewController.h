@@ -31,6 +31,14 @@
 	IBOutlet UIButton* touchzone_3;
 	IBOutlet UIButton* touchzone_4;
 	
+	IBOutlet UIImageView *car;
+	NSMutableArray *ramps;
+	int carX;
+	int yvals[144];
+	int rvals[144];
+	int timeStep;
+	int rampIndex;
+	NSTimer *timer;
 }
 
 
