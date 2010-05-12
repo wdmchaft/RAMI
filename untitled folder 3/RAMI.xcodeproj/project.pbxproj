@@ -46,10 +46,8 @@
 		92B860FC118296E000DC1AB1 /* GameBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B860FA118296E000DC1AB1 /* GameBoardViewController.m */; };
 		92B860FD118296E000DC1AB1 /* GameBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B860FB118296E000DC1AB1 /* GameBoardViewController.xib */; };
 		BE01B1D811984D7000B46AB2 /* FormulaBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE01B1D711984D7000B46AB2 /* FormulaBoardViewController.xib */; };
-		BE01B1DE11984F6400B46AB2 /* blue car.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE01B1DD11984F6400B46AB2 /* blue car.gif */; };
 		BE2DB5A91198E677001DBE29 /* Ramp.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2DB5A81198E677001DBE29 /* Ramp.m */; };
-		BE2DB5B61198E758001DBE29 /* blue-ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE2DB5B51198E758001DBE29 /* blue-ball.gif */; };
-		BE78B79511991033004C94B8 /* blue-cball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B79411991033004C94B8 /* blue-cball.gif */; };
+		BE44F271119AFCBB001DFF5D /* ServerComm.m in Sources */ = {isa = PBXBuildFile; fileRef = BE44F270119AFCBB001DFF5D /* ServerComm.m */; };
 		BE78B79A11991459004C94B8 /* CasinoRamp.m in Sources */ = {isa = PBXBuildFile; fileRef = BE78B79911991459004C94B8 /* CasinoRamp.m */; };
 		BE78B83611991C68004C94B8 /* casino_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B81F11991C68004C94B8 /* casino_0.png */; };
 		BE78B83711991C68004C94B8 /* casino_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B82011991C68004C94B8 /* casino_1.png */; };
@@ -74,6 +72,32 @@
 		BE78B84A11991C68004C94B8 /* casino_right_4_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B83311991C68004C94B8 /* casino_right_4_upper.png */; };
 		BE78B84B11991C68004C94B8 /* casino_switch_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B83411991C68004C94B8 /* casino_switch_0.png */; };
 		BE78B84C11991C68004C94B8 /* casino_switch_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B83511991C68004C94B8 /* casino_switch_1.png */; };
+		BE78B8FB11992580004C94B8 /* blue car.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8E311992580004C94B8 /* blue car.gif */; };
+		BE78B8FC11992580004C94B8 /* blue-ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8E411992580004C94B8 /* blue-ball.gif */; };
+		BE78B8FD11992580004C94B8 /* blue-cball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8E511992580004C94B8 /* blue-cball.gif */; };
+		BE78B8FE11992580004C94B8 /* brown car.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8E611992580004C94B8 /* brown car.gif */; };
+		BE78B8FF11992580004C94B8 /* brown-ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8E711992580004C94B8 /* brown-ball.gif */; };
+		BE78B90011992580004C94B8 /* brown-cball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8E811992580004C94B8 /* brown-cball.gif */; };
+		BE78B90111992580004C94B8 /* green car.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8E911992580004C94B8 /* green car.gif */; };
+		BE78B90211992580004C94B8 /* green-ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8EA11992580004C94B8 /* green-ball.gif */; };
+		BE78B90311992580004C94B8 /* green-cball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8EB11992580004C94B8 /* green-cball.gif */; };
+		BE78B90411992580004C94B8 /* orange car.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8EC11992580004C94B8 /* orange car.gif */; };
+		BE78B90511992580004C94B8 /* orange-ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8ED11992580004C94B8 /* orange-ball.gif */; };
+		BE78B90611992580004C94B8 /* orange-cball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8EE11992580004C94B8 /* orange-cball.gif */; };
+		BE78B90711992580004C94B8 /* pink car.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8EF11992580004C94B8 /* pink car.gif */; };
+		BE78B90811992580004C94B8 /* pink-ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8F011992580004C94B8 /* pink-ball.gif */; };
+		BE78B90911992580004C94B8 /* pink-cball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8F111992580004C94B8 /* pink-cball.gif */; };
+		BE78B90A11992580004C94B8 /* purple car.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8F211992580004C94B8 /* purple car.gif */; };
+		BE78B90B11992580004C94B8 /* purple-ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8F311992580004C94B8 /* purple-ball.gif */; };
+		BE78B90C11992580004C94B8 /* purple-cball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8F411992580004C94B8 /* purple-cball.gif */; };
+		BE78B90D11992580004C94B8 /* red car.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8F511992580004C94B8 /* red car.gif */; };
+		BE78B90E11992580004C94B8 /* red-ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8F611992580004C94B8 /* red-ball.gif */; };
+		BE78B90F11992580004C94B8 /* red-cball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8F711992580004C94B8 /* red-cball.gif */; };
+		BE78B91011992580004C94B8 /* yellow car.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8F811992580004C94B8 /* yellow car.gif */; };
+		BE78B91111992580004C94B8 /* yellow-ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8F911992580004C94B8 /* yellow-ball.gif */; };
+		BE78B91211992580004C94B8 /* yellow-cball.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE78B8FA11992580004C94B8 /* yellow-cball.gif */; };
+		BE78B94811992AC9004C94B8 /* casinohider.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78B94711992AC9004C94B8 /* casinohider.png */; };
+		BE78B97B119933D1004C94B8 /* GenericBoardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE78B97A119933D1004C94B8 /* GenericBoardVC.m */; };
 		BE8E686F119849C300C81052 /* CasinoBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E686D119849C300C81052 /* CasinoBoardViewController.m */; };
 		BE8E6870119849C300C81052 /* CasinoBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8E686E119849C300C81052 /* CasinoBoardViewController.xib */; };
 		BEFD20691198523C004B689D /* formula_1_left.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFD20401198523C004B689D /* formula_1_left.png */; };
@@ -143,11 +167,10 @@
 		92B860FA118296E000DC1AB1 /* GameBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoardViewController.m; sourceTree = "<group>"; };
 		92B860FB118296E000DC1AB1 /* GameBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameBoardViewController.xib; sourceTree = "<group>"; };
 		BE01B1D711984D7000B46AB2 /* FormulaBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormulaBoardViewController.xib; sourceTree = "<group>"; };
-		BE01B1DD11984F6400B46AB2 /* blue car.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "blue car.gif"; sourceTree = "<group>"; };
 		BE2DB5A71198E677001DBE29 /* Ramp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ramp.h; sourceTree = "<group>"; };
 		BE2DB5A81198E677001DBE29 /* Ramp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ramp.m; sourceTree = "<group>"; };
-		BE2DB5B51198E758001DBE29 /* blue-ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "blue-ball.gif"; sourceTree = "<group>"; };
-		BE78B79411991033004C94B8 /* blue-cball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "blue-cball.gif"; sourceTree = "<group>"; };
+		BE44F26F119AFCBB001DFF5D /* ServerComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerComm.h; sourceTree = "<group>"; };
+		BE44F270119AFCBB001DFF5D /* ServerComm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerComm.m; sourceTree = "<group>"; };
 		BE78B79811991459004C94B8 /* CasinoRamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasinoRamp.h; sourceTree = "<group>"; };
 		BE78B79911991459004C94B8 /* CasinoRamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasinoRamp.m; sourceTree = "<group>"; };
 		BE78B81F11991C68004C94B8 /* casino_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_0.png; sourceTree = "<group>"; };
@@ -173,6 +196,33 @@
 		BE78B83311991C68004C94B8 /* casino_right_4_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_right_4_upper.png; sourceTree = "<group>"; };
 		BE78B83411991C68004C94B8 /* casino_switch_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_switch_0.png; sourceTree = "<group>"; };
 		BE78B83511991C68004C94B8 /* casino_switch_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casino_switch_1.png; sourceTree = "<group>"; };
+		BE78B8E311992580004C94B8 /* blue car.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "blue car.gif"; sourceTree = "<group>"; };
+		BE78B8E411992580004C94B8 /* blue-ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "blue-ball.gif"; sourceTree = "<group>"; };
+		BE78B8E511992580004C94B8 /* blue-cball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "blue-cball.gif"; sourceTree = "<group>"; };
+		BE78B8E611992580004C94B8 /* brown car.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "brown car.gif"; sourceTree = "<group>"; };
+		BE78B8E711992580004C94B8 /* brown-ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "brown-ball.gif"; sourceTree = "<group>"; };
+		BE78B8E811992580004C94B8 /* brown-cball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "brown-cball.gif"; sourceTree = "<group>"; };
+		BE78B8E911992580004C94B8 /* green car.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "green car.gif"; sourceTree = "<group>"; };
+		BE78B8EA11992580004C94B8 /* green-ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "green-ball.gif"; sourceTree = "<group>"; };
+		BE78B8EB11992580004C94B8 /* green-cball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "green-cball.gif"; sourceTree = "<group>"; };
+		BE78B8EC11992580004C94B8 /* orange car.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "orange car.gif"; sourceTree = "<group>"; };
+		BE78B8ED11992580004C94B8 /* orange-ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "orange-ball.gif"; sourceTree = "<group>"; };
+		BE78B8EE11992580004C94B8 /* orange-cball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "orange-cball.gif"; sourceTree = "<group>"; };
+		BE78B8EF11992580004C94B8 /* pink car.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "pink car.gif"; sourceTree = "<group>"; };
+		BE78B8F011992580004C94B8 /* pink-ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "pink-ball.gif"; sourceTree = "<group>"; };
+		BE78B8F111992580004C94B8 /* pink-cball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "pink-cball.gif"; sourceTree = "<group>"; };
+		BE78B8F211992580004C94B8 /* purple car.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "purple car.gif"; sourceTree = "<group>"; };
+		BE78B8F311992580004C94B8 /* purple-ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "purple-ball.gif"; sourceTree = "<group>"; };
+		BE78B8F411992580004C94B8 /* purple-cball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "purple-cball.gif"; sourceTree = "<group>"; };
+		BE78B8F511992580004C94B8 /* red car.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "red car.gif"; sourceTree = "<group>"; };
+		BE78B8F611992580004C94B8 /* red-ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "red-ball.gif"; sourceTree = "<group>"; };
+		BE78B8F711992580004C94B8 /* red-cball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "red-cball.gif"; sourceTree = "<group>"; };
+		BE78B8F811992580004C94B8 /* yellow car.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "yellow car.gif"; sourceTree = "<group>"; };
+		BE78B8F911992580004C94B8 /* yellow-ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "yellow-ball.gif"; sourceTree = "<group>"; };
+		BE78B8FA11992580004C94B8 /* yellow-cball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "yellow-cball.gif"; sourceTree = "<group>"; };
+		BE78B94711992AC9004C94B8 /* casinohider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casinohider.png; sourceTree = "<group>"; };
+		BE78B979119933D1004C94B8 /* GenericBoardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericBoardVC.h; sourceTree = "<group>"; };
+		BE78B97A119933D1004C94B8 /* GenericBoardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericBoardVC.m; sourceTree = "<group>"; };
 		BE8E686C119849C300C81052 /* CasinoBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasinoBoardViewController.h; sourceTree = "<group>"; };
 		BE8E686D119849C300C81052 /* CasinoBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasinoBoardViewController.m; sourceTree = "<group>"; };
 		BE8E686E119849C300C81052 /* CasinoBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CasinoBoardViewController.xib; sourceTree = "<group>"; };
@@ -217,6 +267,7 @@
 			children = (
 				1D3623240D0F684500981E51 /* RAMIAppDelegate.h */,
 				1D3623250D0F684500981E51 /* RAMIAppDelegate.m */,
+				BE44F26E119AFCBB001DFF5D /* ServerComm */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -237,6 +288,8 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				BE78B979119933D1004C94B8 /* GenericBoardVC.h */,
+				BE78B97A119933D1004C94B8 /* GenericBoardVC.m */,
 				92B860F9118296DF00DC1AB1 /* GameBoardViewController.h */,
 				92B860FA118296E000DC1AB1 /* GameBoardViewController.m */,
 				92B860FB118296E000DC1AB1 /* GameBoardViewController.xib */,
@@ -271,9 +324,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BE01B1DD11984F6400B46AB2 /* blue car.gif */,
-				BE2DB5B51198E758001DBE29 /* blue-ball.gif */,
-				BE78B79411991033004C94B8 /* blue-cball.gif */,
+				BE78B8E211992580004C94B8 /* Pieces */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* RAMI-Info.plist */,
 			);
@@ -326,9 +377,19 @@
 			name = candyskins;
 			sourceTree = "<group>";
 		};
+		BE44F26E119AFCBB001DFF5D /* ServerComm */ = {
+			isa = PBXGroup;
+			children = (
+				BE44F26F119AFCBB001DFF5D /* ServerComm.h */,
+				BE44F270119AFCBB001DFF5D /* ServerComm.m */,
+			);
+			path = ServerComm;
+			sourceTree = "<group>";
+		};
 		BE78B81E11991C68004C94B8 /* casinoskins */ = {
 			isa = PBXGroup;
 			children = (
+				BE78B94711992AC9004C94B8 /* casinohider.png */,
 				BE78B81F11991C68004C94B8 /* casino_0.png */,
 				BE78B82011991C68004C94B8 /* casino_1.png */,
 				BE78B82111991C68004C94B8 /* casino_foundation.png */,
@@ -354,6 +415,37 @@
 				BE78B83511991C68004C94B8 /* casino_switch_1.png */,
 			);
 			path = casinoskins;
+			sourceTree = "<group>";
+		};
+		BE78B8E211992580004C94B8 /* Pieces */ = {
+			isa = PBXGroup;
+			children = (
+				BE78B8E311992580004C94B8 /* blue car.gif */,
+				BE78B8E411992580004C94B8 /* blue-ball.gif */,
+				BE78B8E511992580004C94B8 /* blue-cball.gif */,
+				BE78B8E611992580004C94B8 /* brown car.gif */,
+				BE78B8E711992580004C94B8 /* brown-ball.gif */,
+				BE78B8E811992580004C94B8 /* brown-cball.gif */,
+				BE78B8E911992580004C94B8 /* green car.gif */,
+				BE78B8EA11992580004C94B8 /* green-ball.gif */,
+				BE78B8EB11992580004C94B8 /* green-cball.gif */,
+				BE78B8EC11992580004C94B8 /* orange car.gif */,
+				BE78B8ED11992580004C94B8 /* orange-ball.gif */,
+				BE78B8EE11992580004C94B8 /* orange-cball.gif */,
+				BE78B8EF11992580004C94B8 /* pink car.gif */,
+				BE78B8F011992580004C94B8 /* pink-ball.gif */,
+				BE78B8F111992580004C94B8 /* pink-cball.gif */,
+				BE78B8F211992580004C94B8 /* purple car.gif */,
+				BE78B8F311992580004C94B8 /* purple-ball.gif */,
+				BE78B8F411992580004C94B8 /* purple-cball.gif */,
+				BE78B8F511992580004C94B8 /* red car.gif */,
+				BE78B8F611992580004C94B8 /* red-ball.gif */,
+				BE78B8F711992580004C94B8 /* red-cball.gif */,
+				BE78B8F811992580004C94B8 /* yellow car.gif */,
+				BE78B8F911992580004C94B8 /* yellow-ball.gif */,
+				BE78B8FA11992580004C94B8 /* yellow-cball.gif */,
+			);
+			path = Pieces;
 			sourceTree = "<group>";
 		};
 		BEFD203F1198523C004B689D /* formulaskins */ = {
@@ -454,10 +546,8 @@
 				92591260118CF819008C6386 /* left_4_upper.png in Resources */,
 				92591261118CF819008C6386 /* right_4_upper.png in Resources */,
 				925912F1118D1732008C6386 /* right_3_lower.png in Resources */,
-				BE2DB5B61198E758001DBE29 /* blue-ball.gif in Resources */,
 				BE8E6870119849C300C81052 /* CasinoBoardViewController.xib in Resources */,
 				BE01B1D811984D7000B46AB2 /* FormulaBoardViewController.xib in Resources */,
-				BE01B1DE11984F6400B46AB2 /* blue car.gif in Resources */,
 				BEFD20691198523C004B689D /* formula_1_left.png in Resources */,
 				BEFD206A1198523C004B689D /* formula_1_right.png in Resources */,
 				BEFD206B1198523C004B689D /* formula_2_left.png in Resources */,
@@ -476,7 +566,6 @@
 				BEFD20781198523C004B689D /* formula_switch_1.png in Resources */,
 				BEFD20791198523C004B689D /* formula_yellow_light.png in Resources */,
 				BEFD207A1198523C004B689D /* formula_zero.png in Resources */,
-				BE78B79511991033004C94B8 /* blue-cball.gif in Resources */,
 				BE78B83611991C68004C94B8 /* casino_0.png in Resources */,
 				BE78B83711991C68004C94B8 /* casino_1.png in Resources */,
 				BE78B83811991C68004C94B8 /* casino_foundation.png in Resources */,
@@ -500,6 +589,31 @@
 				BE78B84A11991C68004C94B8 /* casino_right_4_upper.png in Resources */,
 				BE78B84B11991C68004C94B8 /* casino_switch_0.png in Resources */,
 				BE78B84C11991C68004C94B8 /* casino_switch_1.png in Resources */,
+				BE78B8FB11992580004C94B8 /* blue car.gif in Resources */,
+				BE78B8FC11992580004C94B8 /* blue-ball.gif in Resources */,
+				BE78B8FD11992580004C94B8 /* blue-cball.gif in Resources */,
+				BE78B8FE11992580004C94B8 /* brown car.gif in Resources */,
+				BE78B8FF11992580004C94B8 /* brown-ball.gif in Resources */,
+				BE78B90011992580004C94B8 /* brown-cball.gif in Resources */,
+				BE78B90111992580004C94B8 /* green car.gif in Resources */,
+				BE78B90211992580004C94B8 /* green-ball.gif in Resources */,
+				BE78B90311992580004C94B8 /* green-cball.gif in Resources */,
+				BE78B90411992580004C94B8 /* orange car.gif in Resources */,
+				BE78B90511992580004C94B8 /* orange-ball.gif in Resources */,
+				BE78B90611992580004C94B8 /* orange-cball.gif in Resources */,
+				BE78B90711992580004C94B8 /* pink car.gif in Resources */,
+				BE78B90811992580004C94B8 /* pink-ball.gif in Resources */,
+				BE78B90911992580004C94B8 /* pink-cball.gif in Resources */,
+				BE78B90A11992580004C94B8 /* purple car.gif in Resources */,
+				BE78B90B11992580004C94B8 /* purple-ball.gif in Resources */,
+				BE78B90C11992580004C94B8 /* purple-cball.gif in Resources */,
+				BE78B90D11992580004C94B8 /* red car.gif in Resources */,
+				BE78B90E11992580004C94B8 /* red-ball.gif in Resources */,
+				BE78B90F11992580004C94B8 /* red-cball.gif in Resources */,
+				BE78B91011992580004C94B8 /* yellow car.gif in Resources */,
+				BE78B91111992580004C94B8 /* yellow-ball.gif in Resources */,
+				BE78B91211992580004C94B8 /* yellow-cball.gif in Resources */,
+				BE78B94811992AC9004C94B8 /* casinohider.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +632,8 @@
 				BE8E686F119849C300C81052 /* CasinoBoardViewController.m in Sources */,
 				BEFD208511985369004B689D /* FormulaRamp.m in Sources */,
 				BE78B79A11991459004C94B8 /* CasinoRamp.m in Sources */,
+				BE78B97B119933D1004C94B8 /* GenericBoardVC.m in Sources */,
+				BE44F271119AFCBB001DFF5D /* ServerComm.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GenericBoardVC.h"
 
-
-@interface FormulaBoardViewController : UIViewController {
+@interface FormulaBoardViewController : GenericBoardVC
+{
 	IBOutlet UIImageView* binary_read_1;
 	IBOutlet UIImageView* binary_read_2;
 	IBOutlet UIImageView* binary_read_3;
@@ -31,14 +32,11 @@
 	IBOutlet UIButton* touchzone_3;
 	IBOutlet UIButton* touchzone_4;
 	
-	IBOutlet UIImageView *car;
-	NSMutableArray *ramps;
+	UIImageView *car;
 	int carX;
 	int yvals[144];
 	int rvals[144];
-	int timeStep;
-	int rampIndex;
-	NSTimer *timer;
+	NSMutableArray *cars;
 }
 
 

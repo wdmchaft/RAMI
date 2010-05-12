@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GenericBoardVC.h"
 
-
-@interface GameBoardViewController : UIViewController {
+@interface GameBoardViewController : GenericBoardVC {
 	IBOutlet UIImageView* binary_read_1;
 	IBOutlet UIImageView* binary_read_2;
 	IBOutlet UIImageView* binary_read_3;
@@ -35,17 +35,10 @@
 	IBOutlet UIButton* touchzone_3;
 	IBOutlet UIButton* touchzone_4;
 
-
-	IBOutlet UISlider *playSpeed;
-	IBOutlet UILabel *speedLabel;
-	IBOutlet UIImageView *ball;
-	int rampIndex;
+	UIImageView *ball;
 	int yvals[144];
-	NSMutableArray *ramps;
 	int ballX;
-	int timeStep;
-	NSTimer *timer;
-
+	NSMutableArray *balls;
 }
 
 
@@ -72,9 +65,5 @@
 @property IBOutlet (retain) UIButton* touchzone_4;
 
 -(IBAction) flip:(id)sender;
--(IBAction) updateSpeedLabel;
-
-- (void) setupRamps;
-- (void) update;
 
 @end

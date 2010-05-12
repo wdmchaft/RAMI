@@ -10,6 +10,7 @@
 #import "GameBoardViewController.h"
 #import "FormulaBoardViewController.h"
 #import "CasinoBoardViewController.h"
+#import "GenericBoardVC.h"
 
 @interface RAMIAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;

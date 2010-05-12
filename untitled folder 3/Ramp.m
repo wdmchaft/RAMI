@@ -213,6 +213,7 @@
 			break;
 		}
 	}
+	yStart -= 12;
 }
 
 - (int) offsetForTime:(int)timeStep
@@ -224,13 +225,13 @@
 	
 	int value = xOffsets[timeStep];
 	
-	if(yStart == 267 && right)
+	if(yStart == 267-12 && right)
 		value-=2;
-	if(yStart == 310)
+	if(yStart == 310-12)
 		value+=3;
-	if(yStart == 410 && right)
+	if(yStart == 410-12 && right)
 		value-=2;
-	if(yStart == 513 && right)
+	if(yStart == 513-12 && right)
 		value+=6;
 	
 	return sign * value;

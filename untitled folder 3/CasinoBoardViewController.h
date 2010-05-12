@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GenericBoardVC.h"
 
-
-@interface CasinoBoardViewController : UIViewController {
+@interface CasinoBoardViewController : GenericBoardVC
+{
 	IBOutlet UIImageView* binary_switch_1;
 	IBOutlet UIImageView* binary_switch_2;
 	IBOutlet UIImageView* binary_switch_3;
@@ -31,13 +32,10 @@
 	IBOutlet UIButton* touchzone_3;
 	IBOutlet UIButton* touchzone_4;
 	
-	IBOutlet UIImageView *ball;
-	NSMutableArray *ramps;
+	UIImageView *ball;
 	int ballX;
 	int yvals[128];
-	int timeStep;
-	int rampIndex;
-	NSTimer *timer;
+	NSMutableArray *balls;
 }
 
 @property IBOutlet (retain) UIImageView* binary_switch_1;
@@ -56,6 +54,7 @@
 @property IBOutlet (retain) UIButton* touchzone_2;
 @property IBOutlet (retain) UIButton* touchzone_3;
 @property IBOutlet (retain) UIButton* touchzone_4;
+
 -(IBAction) flip:(id)sender;
 
 @end

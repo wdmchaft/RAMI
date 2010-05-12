@@ -16,16 +16,55 @@
 switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 @synthesize touchzone_1, touchzone_2, touchzone_3, touchzone_4;
 
-//536,171 - 536,253
-//536,253 - 370,287
-//370,287 - 349,319
-//349,319 - 349,367
-//349,367 - 259,404
-//259,404 - 259,451
-//259,451 - 217,468
-//217,468 - 217,526
-//217,526 - 197,556
-//197,556 - 197,598
+- (CGPoint) winPosFromNum:(int)num
+{
+	num = num % 8;
+	int v1 = 0;
+	switch(num)
+	{
+		case 0:
+		{
+			v1 = 197;
+			break;
+		}
+		case 1:
+		{
+			v1 = 241;
+			break;
+		}
+		case 2:
+		{
+			v1 = 287;
+			break;
+		}
+		case 3:
+		{
+			v1 = 331;
+			break;
+		}
+		case 4:
+		{
+			v1 = 377;
+			break;
+		}
+		case 5:
+		{
+			v1 = 421;
+			break;
+		}
+		case 6:
+		{
+			v1 = 467;
+			break;
+		}
+		case 7:
+		{
+			v1 = 511;
+			break;
+		}
+	}
+	return CGPointMake(v1,v1 + 374);
+}
 
 - (void) makeYVals
 {
@@ -94,16 +133,19 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 
 - (void) setFirstOn:(BOOL)isOn
 {
+	if(timeStep > 45) return;
 	[[ramps objectAtIndex:1] setRight:isOn];
 }
 
 - (void) setSecondOn:(BOOL)isOn
 {
+	if(timeStep > 72) return;
 	[[ramps objectAtIndex:2] setRight:isOn];
 }
 
 - (void) setThirdOn:(BOOL)isOn
 {
+	if(timeStep > 108) return;
 	[[ramps objectAtIndex:3] setRight:isOn];
 }
 
@@ -124,12 +166,113 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 		[ramp release];
 	}
 	
-	ball.center = CGPointMake(536, yvals[0]);
+	for(int i = 0; i < 16; i++)
+		cups[i] = 0;
+	
 	ballX = 536;
+	
+	balls = [[NSMutableArray alloc] initWithCapacity:32];
+	for(int i = 0; i < 32; i++)
+	{
+		[balls addObject:[NSNumber numberWithInt:i % 8]];
+	}
+	for(int i = 0; i < 100; i++)
+	{
+		[balls exchangeObjectAtIndex:arc4random() % 32 withObjectAtIndex:arc4random() % 32];
+	}
+}
+
+- (void) removeLoser:(NSTimer *)atimer
+{
+	UIImageView *aball = [atimer userInfo];
+	[aball removeFromSuperview];
+}
+
+- (void) shiftLoser:(NSTimer *)atimer
+{
+	UIImageView *aball = [atimer userInfo];
+	[UIView beginAnimations:@"SlideOverLoser" context:nil];
+	[UIView setAnimationDuration:.8];
+	[UIView setAnimationBeginsFromCurrentState:YES];
+	[UIView setAnimationCurve:UIViewAnimationCurveLinear];
+	aball.center = CGPointMake(942, aball.center.y);
+	[UIView commitAnimations];
+	[NSTimer scheduledTimerWithTimeInterval:.8 target:self selector:@selector(removeLoser:) userInfo:aball repeats:NO];
+}
+
+- (void) ballDone:(UIImageView *)aball
+{
+	CGPoint goal = [self winPosFromNum:aball.tag-kBallTags];
+	if(aball.center.x == goal.x || aball.center.x == goal.y)
+	{
+		int cupNum = aball.tag-kBallTags;
+		if(aball.center.x == goal.y)
+			cupNum += 8;
+		
+		if(cups[cupNum] < 2)
+		{
+			cups[cupNum]++;
+			
+			if(mode == SCORE)
+			{
+				timeMod = 60 * 6;
+				combo++;
+				score+=1000*combo;
+				scoreLabel.text = [NSString stringWithFormat:@"SCORE: %d", score];
+				comboLabel.hidden = NO;
+				comboLabel.text = [NSString stringWithFormat:@"COMBO: %dx", combo];
+			}
+			
+			if(cups[cupNum] == 1)
+			{
+				[UIView beginAnimations:@"SlideDownWinner" context:nil];
+				[UIView setAnimationDuration:.4];
+				[UIView setAnimationBeginsFromCurrentState:YES];
+				[UIView setAnimationCurve:UIViewAnimationCurveLinear];
+				aball.center = CGPointMake(aball.center.x, aball.center.y + 24);
+				[UIView commitAnimations];
+			}
+		}
+		else
+			goto MISS;
+	}
+	else
+	{
+		MISS:
+		[UIView beginAnimations:@"SlideDownLoser" context:nil];
+		[UIView setAnimationDuration:.4];
+		[UIView setAnimationBeginsFromCurrentState:YES];
+		[UIView setAnimationCurve:UIViewAnimationCurveLinear];
+		aball.center = CGPointMake(aball.center.x, aball.center.y + 90);
+		[UIView commitAnimations];
+		
+		if(mode == TIME)
+		{
+			score += 50;
+		}
+		
+		[NSTimer scheduledTimerWithTimeInterval:.4 target:self selector:@selector(shiftLoser:) userInfo:aball repeats:NO];
+		
+		if(mode == TIME)
+			[balls insertObject:[NSNumber numberWithInt:aball.tag-kBallTags] atIndex:0];
+		else if(mode == SCORE)
+		{
+			comboLabel.hidden = YES;
+			combo = 0;
+			timeMod = 0;
+		}
+	}
+	
+	if(mode == PRACTICE)
+		[balls insertObject:[NSNumber numberWithInt:aball.tag-kBallTags] atIndex:0];
 }
 
 - (void) update
 {
+	[super update];
+	
+	if(timeStep > 128 || ball == nil) return;
+	
 	int y = yvals[timeStep];
 	if(timeStep >= 128 || (rampIndex+1 < [ramps count] && y >= [[ramps objectAtIndex:rampIndex+1] yStart]))
 	{
@@ -138,8 +281,10 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 	}
 	if(rampIndex >= [ramps count])// || timeStep == 134)
 	{
-		[timer invalidate];
-		timer = nil;
+		[self ballDone:ball];
+		ball = nil;
+		[self loadBall];
+		timeStep = 800;
 		return;
 	}
 	
@@ -148,13 +293,50 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 		
 	ball.center = CGPointMake(x,y);
 	
-	NSLog(@"%d : %d : %d", timeStep, x, y);
 	timeStep++;
 }
 
-- (void) start
+- (UIImageView *)newBall
 {
+	if([balls count] == 0)
+	{
+		[self gameOverWithScore:score];
+		return nil;
+	}
+	
+	int num = [[balls lastObject] intValue];
+	[balls removeLastObject];
+	UIImageView *newBall = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@-cball.gif", [self colorFromNum:num]]]];
+	newBall.center = CGPointMake(536, yvals[0]);
+	newBall.tag = num + kBallTags;
+	[self.view insertSubview:newBall aboveSubview:switch_2_lower];
+	newBall.alpha = 0;
+	[newBall release];
+	return newBall;
+}
+
+- (void) loadBall
+{
+	if(ball != nil) return;
+	
+	ball = [self newBall];
+	if(!ball) return;
+
 	rampIndex = 0;
+	ball.center = CGPointMake(536, yvals[0]);
+	ballX = 536;
+	
+	[UIView beginAnimations:@"ShowBall" context:nil];
+	[UIView setAnimationDuration:2];
+	[UIView setAnimationBeginsFromCurrentState:YES];
+	[UIView setAnimationCurve:UIViewAnimationCurveLinear];
+	ball.alpha = 2.5;
+	[UIView commitAnimations];
+}
+
+- (IBAction) dropBall
+{
+	if(timeStep != 800) return;
 	ball.center = CGPointMake(536, yvals[0]);
 	ballX = 536;
 	timeStep = 0;
@@ -163,26 +345,17 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 	[self setSecondOn:!bool_2];
 	[self setThirdOn:!bool_3];
 	[self setFourthOn:!bool_4];
-	
+}
+
+- (void) startTimer
+{
 	if(!timer)
 	{
 		[timer invalidate];
 		timer = nil;
 	}
-	timer = [NSTimer scheduledTimerWithTimeInterval:(1/15.0) target:self
+	timer = [NSTimer scheduledTimerWithTimeInterval:(1/60.0) target:self
 										   selector:@selector(update) userInfo:nil repeats:YES];
-}
-
-- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-	CGPoint p = [[touches anyObject] locationInView:self.view];
-	if(p.x < 100 && p.y < 100)
-		[self start];
-	else
-	{
-		ball.center = p;
-	}
-	
 }
 
 -(IBAction) flip:(id)sender{
@@ -271,18 +444,43 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
     return self;
 }
 */
-
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-	//switch_1_lower.frame = CGRectMake(298,198,465,128);
-	//switch_1_upper.frame = CGRectMake(298,198,465,128);
+- (void) startGame
+{
 	bool_1 = true;
 	bool_2 = true;
 	bool_3 = true;
 	bool_4 = true;
+	timeStep = 800;
+	timeMod = 0;
+	score = 0;
+	combo = 0;
+	ball = nil;
+	
+	scoreLabel.hidden = YES;
+	comboLabel.hidden = YES;
+	
+	if(mode == SCORE)
+	{
+		scoreLabel.hidden = NO;
+		scoreLabel.text = @"SCORE: 0";
+	}
+	else if(mode == TIME)
+	{
+		scoreLabel.hidden = NO;
+		scoreLabel.text = @"TIME: 0.0";
+	}
+	
 	[self setupRamps];
+	
+	[self startTimer];
+	
+	[self loadBall];
+}
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad 
+{
+    [super viewDidLoad];
 }
 
 
@@ -308,7 +506,14 @@ switch_3_lower, switch_3_upper,switch_4_lower, switch_4_upper;
 }
 
 
-- (void)dealloc {
+- (void)dealloc
+{
+	for(int i = 0; i < 16; i++)
+	{
+		[[self.view viewWithTag:i + kBallTags] removeFromSuperview];
+	}
+	[balls release];
+	[ramps release];
     [super dealloc];
 }
 

@@ -16,6 +16,56 @@
 @synthesize switch_1_upper, switch_2_upper,switch_3_upper,switch_4_upper;
 @synthesize touchzone_1, touchzone_2, touchzone_3, touchzone_4;
 
+- (CGPoint) winPosFromNum:(int)num
+{
+	num = num % 8;
+	int v1 = 0;
+	switch(num)
+	{
+		case 0:
+		{
+			v1 = 157;
+			break;
+		}
+		case 1:
+		{
+			v1 = 205;
+			break;
+		}
+		case 2:
+		{
+			v1 = 251;
+			break;
+		}
+		case 3:
+		{
+			v1 = 299;
+			break;
+		}
+		case 4:
+		{
+			v1 = 351;
+			break;
+		}
+		case 5:
+		{
+			v1 = 399;
+			break;
+		}
+		case 6:
+		{
+			v1 = 445;
+			break;
+		}
+		case 7:
+		{
+			v1 = 493;
+			break;
+		}
+	}
+	return CGPointMake(v1,v1 + 384);
+}
+
 - (void) makeYVals
 {
 	for(int i = 0; i < 12; i++)
@@ -159,21 +209,25 @@
 
 - (void) setFirstOn:(BOOL)isOn
 {
+	if(timeStep > 19) return;
 	[[ramps objectAtIndex:1] setRight:isOn];
 }
 
 - (void) setSecondOn:(BOOL)isOn
 {
+	if(timeStep > 67) return;
 	[[ramps objectAtIndex:2] setRight:isOn];
 }
 
 - (void) setThirdOn:(BOOL)isOn
 {
+	if(timeStep > 103) return;
 	[[ramps objectAtIndex:3] setRight:isOn];
 }
 
 - (void) setFourthOn:(BOOL)isOn
 {
+	if(timeStep > 132) return;
 	[[ramps objectAtIndex:4] setRight:isOn];
 }
 
@@ -190,12 +244,112 @@
 		[ramp release];
 	}
 	
+	for(int i = 0; i < 16; i++)
+		cups[i] = 0;
+	
 	car.center = CGPointMake(517, yvals[0]);
 	carX = 517;
+	
+	cars = [[NSMutableArray alloc] initWithCapacity:32];
+	for(int i = 0; i < 32; i++)
+		[cars addObject:[NSNumber numberWithInt:i%8]];
+	for(int i = 0; i < 100; i++)
+		[cars exchangeObjectAtIndex:(arc4random() % 32) withObjectAtIndex:(arc4random() % 32)];
+}
+
+- (void) removeLoser:(NSTimer *)atimer
+{
+	UIImageView *acar = [atimer userInfo];
+	[acar removeFromSuperview];
+}
+
+- (void) shiftLoser:(NSTimer *)atimer
+{
+	UIImageView *acar = [atimer userInfo];
+	[UIView beginAnimations:@"SlideOverLoser" context:nil];
+	[UIView setAnimationDuration:3];
+	[UIView setAnimationBeginsFromCurrentState:YES];
+	[UIView setAnimationCurve:UIViewAnimationCurveLinear];
+	acar.center = CGPointMake(970, acar.center.y);
+	acar.alpha = -2;
+	[UIView commitAnimations];
+	[NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(removeLoser:) userInfo:acar repeats:NO];
+}
+
+- (void) carDone:(UIImageView *)acar
+{
+	CGPoint goal = [self winPosFromNum:acar.tag-kBallTags];
+	if(acar.center.x == goal.x || acar.center.x == goal.y)
+	{
+		int cupNum = acar.tag-kBallTags;
+		if(acar.center.x == goal.y)
+			cupNum += 8;
+		
+		if(cups[cupNum] < 2)
+		{
+			cups[cupNum]++;
+			
+			if(mode == SCORE)
+			{
+				timeMod = 60 * 6;
+				combo++;
+				score+=1000*combo;
+				scoreLabel.text = [NSString stringWithFormat:@"SCORE: %d", score];
+				comboLabel.hidden = NO;
+				comboLabel.text = [NSString stringWithFormat:@"COMBO: %dx", combo];
+			}
+			
+			if(cups[cupNum] == 1)
+			{
+				[UIView beginAnimations:@"SlideDownWinner" context:nil];
+				[UIView setAnimationDuration:.4];
+				[UIView setAnimationBeginsFromCurrentState:YES];
+				[UIView setAnimationCurve:UIViewAnimationCurveLinear];
+				acar.center = CGPointMake(acar.center.x, acar.center.y + 24);
+				[UIView commitAnimations];
+			}
+		}
+		else
+			goto MISS;
+	}
+	else
+	{
+	MISS:
+		[UIView beginAnimations:@"SlideDownLoser" context:nil];
+		[UIView setAnimationDuration:.4];
+		[UIView setAnimationBeginsFromCurrentState:YES];
+		[UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
+		acar.transform = CGAffineTransformMakeRotation(-M_PI/2);
+		acar.center = CGPointMake(acar.center.x, acar.center.y + 70);
+		[UIView commitAnimations];
+		
+		if(mode == TIME)
+		{
+			score += 50;
+		}
+		
+		[NSTimer scheduledTimerWithTimeInterval:.4 target:self selector:@selector(shiftLoser:) userInfo:acar repeats:NO];
+		
+		if(mode == TIME)
+			[cars insertObject:[NSNumber numberWithInt:acar.tag-kBallTags] atIndex:0];
+		else if(mode == SCORE)
+		{
+			comboLabel.hidden = YES;
+			combo = 0;
+			timeMod = 0;
+		}
+	}
+	
+	if(mode == PRACTICE)
+		[cars insertObject:[NSNumber numberWithInt:acar.tag-kBallTags] atIndex:0];
 }
 
 - (void) update
 {
+	[super update];
+	
+	if(timeStep > 144 || car == nil) return;
+	
 	int y = yvals[timeStep];
 	if(timeStep >= 144 || (rampIndex+1 < [ramps count] && y >= [[ramps objectAtIndex:rampIndex+1] yStart]))
 	{
@@ -204,8 +358,10 @@
 	}
 	if(rampIndex >= [ramps count])// || timeStep == 134)
 	{
-		[timer invalidate];
-		timer = nil;
+		[self carDone:car];
+		car = nil;
+		[self loadCar];
+		timeStep = 800;
 		return;
 	}
 	
@@ -213,11 +369,9 @@
 	int x = carX + deltaX;
 	
 	int rot = rvals[timeStep];
-	
-	NSLog(@"%d : %d : %d", timeStep, x, rot);
+
 	if(deltaX > 0)
-		rot *= -1;
-		
+		rot *= -1;		
 	
 	car.center = CGPointMake(x,y);
 	car.transform = CGAffineTransformMakeRotation(rot * M_PI/180);
@@ -225,9 +379,47 @@
 	timeStep++;
 }
 
-- (void) start
+- (UIImageView *)newCar
 {
+	if([cars count] == 0)
+	{
+		[self gameOverWithScore:score];
+		return nil;
+	}
+	
+	int num = [[cars lastObject] intValue];
+	[cars removeLastObject];
+	UIImageView *newCar = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@ car.gif", [self colorFromNum:num]]]];
+	newCar.center = CGPointMake(517, yvals[0]);
+	newCar.tag = num + kBallTags;
+	[self.view insertSubview:newCar aboveSubview:binary_switch_1];
+	newCar.alpha = 0;
+	[newCar release];
+	return newCar;
+}
+
+- (void) loadCar
+{
+	if(car != nil) return;
+	
+	car = [self newCar];
+	if(!car) return;
+	
 	rampIndex = 0;
+	car.center = CGPointMake(517, yvals[0]);
+	carX = 517;
+	
+	[UIView beginAnimations:@"ShowCar" context:nil];
+	[UIView setAnimationDuration:2];
+	[UIView setAnimationBeginsFromCurrentState:YES];
+	[UIView setAnimationCurve:UIViewAnimationCurveLinear];
+	car.alpha = 2.5;
+	[UIView commitAnimations];
+}
+
+- (IBAction) dropBall
+{
+	if(timeStep != 800) return;
 	car.center = CGPointMake(517, yvals[0]);
 	carX = 517;
 	timeStep = 0;
@@ -236,43 +428,51 @@
 	[self setSecondOn:!bool_2];
 	[self setThirdOn:!bool_3];
 	[self setFourthOn:!bool_4];
-	
+}
+
+- (void) startTimer
+{
 	if(!timer)
 	{
 		[timer invalidate];
 		timer = nil;
 	}
-	timer = [NSTimer scheduledTimerWithTimeInterval:(1/5.0) target:self
+	timer = [NSTimer scheduledTimerWithTimeInterval:(1/60.0) target:self
 										   selector:@selector(update) userInfo:nil repeats:YES];
 }
 
-
-- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+- (void) startGame
 {
-	CGPoint p = [[touches anyObject] locationInView:self.view];
-	if(p.x < 100 && p.y < 100)
-		[self start];
-	else
+	bool_1 = true;
+	bool_2 = true;
+	bool_3 = true;
+	bool_4 = true;
+	timeStep = 800;
+	timeMod = 0;
+	score = 0;
+	combo = 0;
+	car = nil;
+	
+	scoreLabel.hidden = YES;
+	comboLabel.hidden = YES;
+	
+	if(mode == SCORE)
 	{
-		car.center = p;
-		int min = 100;
-		int minI;
-		for(int i = 0; i < 144; i++)
-		{
-
-			if(ABS(yvals[i] - car.center.y) < min)
-			{
-				min = ABS(yvals[i] - car.center.y);
-				minI = i;
-				if(min == 0)
-					break;
-			}
-		}
-		NSLog(@"%.2f, %.2f : %d->%d", car.center.x, car.center.y, minI, yvals[minI]);
+		scoreLabel.hidden = NO;
+		scoreLabel.text = @"SCORE: 0";
+	}
+	else if(mode == TIME)
+	{
+		scoreLabel.hidden = NO;
+		scoreLabel.text = @"TIME: 0.0";
 	}
 	
+	[self setupRamps];
+	
+	[self startTimer];
+	
+	[self loadCar];
 }
-
 
 -(IBAction) flip:(id)sender{
 	switch([sender tag])
@@ -362,11 +562,6 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	 bool_1 = true;
-	 bool_2 = true;
-	 bool_3 = true;
-	 bool_4 = true;
-	 [self setupRamps];
 }
 
 
@@ -394,6 +589,11 @@
 
 - (void)dealloc
 {
+	for(int i = 0; i < 16; i++)
+	{
+		[[self.view viewWithTag:i + kBallTags] removeFromSuperview];
+	}
+	[cars release];
 	[ramps release];
     [super dealloc];
 }
