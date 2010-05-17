@@ -1,0 +1,933 @@
+TPathFinder
+v7
+r0
+t295399752.239119
+cCheck dependencies
+cProcessInfoPlistFile "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/Info.plist" PathFinder-Info.plist
+cCompileXIB "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/MainWindow.xib"
+cCompileXIB "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/PathFinderViewController.xib"
+cCompileXIB "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/DetailVC.xib"
+cCpResource build/Debug-iphonesimulator/PathFinder.app/selected.png selected.png
+cCpResource build/Debug-iphonesimulator/PathFinder.app/unselected.png unselected.png
+cProcessPCH /var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch.gch PathFinder_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/main.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderAppDelegate.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderViewController.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyPoint.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyPoint.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/DetailVC.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/DetailVC.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyButton.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Ramp.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/Ramp.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder" normal i386
+cGenerateDSYMFile "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app.dSYM" "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder"
+cTouch "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BE3CA510000000000000110
+t1273219665
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AB3000000000026F020
+t1268791987
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BA6CAEC000000000000098F
+t1269222124
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BA6CB31000000000214E400
+t1269222193
+s34923520
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/../../../../Background.png
+c000000004BD267EF00000000000F89BF
+t1272080367
+s1018303
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/../../../../Foreground.png
+c000000004BD2678E0000000000018563
+t1272080270
+s99683
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/../Rami/candy_balls/blue-ball.gif
+c000000004BC7DC1200000000000008BB
+t1271389202
+s2235
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.h
+c000000004BDE024700000000000002B7
+t1272840775
+s695
+i<UIKit/UIKit.h>
+i"PathFinderViewController.h"
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.m
+c000000004BDE55510000000000000D32
+t1272862033
+s3378
+i"DetailVC.h"
+i"MyPoint.h"
+i"MyButton.h"
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.xib
+c000000004BDD25F20000000000006F19
+t1272784370
+s28441
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyButton.h
+c000000004BDD2AEC0000000000000131
+t1272785644
+s305
+i<Foundation/Foundation.h>
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyButton.m
+c000000004BDE027E00000000000002AB
+t1272840830
+s683
+i"MyButton.h"
+i"DetailVC.h"
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyPoint.h
+c000000004BDD27D50000000000000190
+t1272784853
+s400
+i<Foundation/Foundation.h>
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyPoint.m
+c000000004BDD280B00000000000002FF
+t1272784907
+s767
+i"MyPoint.h"
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderAppDelegate.h
+c000000004BD2637000000000000001E9
+t1272079216
+s489
+i<UIKit/UIKit.h>
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderAppDelegate.m
+c000000004BDD15BA0000000000000305
+t1272780218
+s773
+i"PathFinderAppDelegate.h"
+i"PathFinderViewController.h"
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderViewController.h
+c000000004BE492E600000000000003B5
+t1273271014
+s949
+i<UIKit/UIKit.h>
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderViewController.m
+c000000004BE8B4AF0000000000004ADB
+t1273541807
+s19163
+i"PathFinderViewController.h"
+i"MyPoint.h"
+i"DetailVC.h"
+i"Ramp.h"
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.h
+c000000004BD26A3C0000000000000127
+t1272080956
+s295
+i<Foundation/Foundation.h>
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.m
+c000000004BD26A4500000000000001FC
+t1272080965
+s508
+i"MyPoint.h"
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Ramp.h
+c000000004BDFC9070000000000000191
+t1272957191
+s401
+i<Foundation/Foundation.h>
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Ramp.m
+c000000004BE4916B0000000000000F86
+t1273270635
+s3974
+i"Ramp.h"
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.h
+c000000004BDF96DD0000000000000155
+t1272944349
+s341
+i<Foundation/Foundation.h>
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m
+c000000004BDF97A000000000000027ED
+t1272944544
+s10221
+i"Ramp.h"
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/MainWindow.xib
+c000000004BD263700000000000004D27
+t1272079216
+s19751
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/PathFinderViewController.xib
+c000000004BDF92D2000000000000BEDA
+t1272943314
+s48858
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/PathFinder_Prefix.pch
+c000000004BD2637000000000000000BD
+t1272079216
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app
+t1273541810
+s442
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app.dSYM
+t1273541810
+s102
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/Background.png
+t1272080392
+s1018303
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/DetailVC.nib
+t1272784376
+s2484
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/Foreground.png
+t1272080392
+s99683
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/Info.plist
+t1272079667
+s755
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/MainWindow.nib
+t1272079568
+s1123
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder
+t1273541810
+s62936
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinderViewController.nib
+t1272943320
+s4563
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PkgInfo
+t1272079667
+s8
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/blue-ball.gif
+t1272079568
+s2235
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/selected.png
+t1272785432
+s862
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/unselected.png
+t1272785432
+s869
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/DetailVC.o
+t1273271036
+s49208
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyButton.o
+t1273271036
+s39160
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyPoint.o
+t1272785069
+s11732
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinder.LinkFileList
+c000000004BDF97B8000000000000042E
+t1272944568
+s1070
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderAppDelegate.o
+t1273271036
+s43960
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderViewController.o
+t1273541810
+s94104
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Point.o
+t2
+s0
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Ramp.o
+t1273270647
+s10420
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Switch.o
+t2
+s0
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/main.o
+t1272079571
+s5980
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/main.m
+c000000004BD263700000000000000164
+t1272079216
+s356
+i<UIKit/UIKit.h>
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/selected.png
+c000000004BDD29D1000000000000035E
+t1272785361
+s862
+
+N/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/unselected.png
+c000000004BDD29B60000000000000365
+t1272785334
+s869
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/../../../../Background.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/../../../../Foreground.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/../Rami/candy_balls/blue-ball.gif
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/DetailVC.h
+c000000004BDE024700000000000002B7
+t1272840775
+s695
+i<UIKit/UIKit.h>
+i"PathFinderViewController.h"
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/DetailVC.m
+c000000004BDE55510000000000000D32
+t1272862033
+s3378
+i"DetailVC.h"
+i"MyPoint.h"
+i"MyButton.h"
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/DetailVC.xib
+c000000004BDD25F20000000000006F19
+t1272784370
+s28441
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyButton.h
+c000000004BDD2AEC0000000000000131
+t1272785644
+s305
+i<Foundation/Foundation.h>
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyButton.m
+c000000004BDE027E00000000000002AB
+t1272840830
+s683
+i"MyButton.h"
+i"DetailVC.h"
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyPoint.h
+c000000004BDD27D50000000000000190
+t1272784853
+s400
+i<Foundation/Foundation.h>
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyPoint.m
+c000000004BDD280B00000000000002FF
+t1272784907
+s767
+i"MyPoint.h"
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderAppDelegate.h
+c000000004BD2637000000000000001E9
+t1272079216
+s489
+i<UIKit/UIKit.h>
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderAppDelegate.m
+c000000004BDD15BA0000000000000305
+t1272780218
+s773
+i"PathFinderAppDelegate.h"
+i"PathFinderViewController.h"
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderViewController.h
+c000000004BE492E600000000000003B5
+t1273271014
+s949
+i<UIKit/UIKit.h>
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderViewController.m
+c000000004BE8B4AF0000000000004ADB
+t1273541807
+s19163
+i"PathFinderViewController.h"
+i"MyPoint.h"
+i"DetailVC.h"
+i"Ramp.h"
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/Ramp.h
+c000000004BDFC9070000000000000191
+t1272957191
+s401
+i<Foundation/Foundation.h>
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/Ramp.m
+c000000004BE4916B0000000000000F86
+t1273270635
+s3974
+i"Ramp.h"
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/MainWindow.xib
+c000000004BD263700000000000004D27
+t1272079216
+s19751
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/PathFinderViewController.xib
+c000000004BDF92D2000000000000BEDA
+t1272943314
+s48858
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/PathFinder_Prefix.pch
+c000000004BD2637000000000000000BD
+t1272079216
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app
+t1273706919
+s340
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app.dSYM
+t1273706919
+s102
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/Background.png
+t2
+s0
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/DetailVC.nib
+t1272784376
+s2484
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/Foreground.png
+t2
+s0
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/Info.plist
+t1272079667
+s755
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/MainWindow.nib
+t1272079568
+s1123
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder
+t1273706919
+s62920
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinderViewController.nib
+t1272943320
+s4563
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PkgInfo
+t1272079667
+s8
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/blue-ball.gif
+t2
+s0
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/selected.png
+t1272785432
+s862
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/unselected.png
+t1272785432
+s869
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/DetailVC.o
+t1273706919
+s49204
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyButton.o
+t1273706919
+s39160
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyPoint.o
+t1273706919
+s11728
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinder.LinkFileList
+c000000004BEB39A60000000000000427
+t1273706918
+s1063
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderAppDelegate.o
+t1273706919
+s43960
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderViewController.o
+t1273706919
+s94104
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Ramp.o
+t1273706919
+s10420
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/main.o
+t1273706918
+s5976
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/main.m
+c000000004BD263700000000000000164
+t1272079216
+s356
+i<UIKit/UIKit.h>
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/selected.png
+c000000004BDD29D1000000000000035E
+t1272785361
+s862
+
+N/Users/ebabchick/Downloads/untitled folder 3/PathFinder/unselected.png
+c000000004BDD29B60000000000000365
+t1272785334
+s869
+
+N/var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch.gch
+t1272079571
+s9257536
+
+N/var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch.gch
+t1273706918
+s13805456
+
+NPathFinder-Info.plist
+c000000004BD2652B0000000000000463
+t1272079659
+s1123
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies295399752#295399752#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/DetailVC.o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s294963836.455134
+e294963836.685124
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/DetailVC.o
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.m294963836#294963836#0(0"0(0#0#75"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.m2535161888#2153"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch -c "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.m" -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/DetailVC.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/DetailVC.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/DetailVC.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s295399719.112508
+e295399719.216440
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/DetailVC.o
+x/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/DetailVC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/DetailVC.m295399719#295399719#0(0"0(0#0#74"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/DetailVC.m4300911832#2142"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch -c "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/DetailVC.m" -o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/DetailVC.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyButton.o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s294963836.610398
+e294963836.725001
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyButton.o
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyButton.m294963836#294963836#0(0"0(0#0#75"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyButton.m2535161888#2153"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch -c "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyButton.m" -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyButton.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyButton.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s295399719.216550
+e295399719.318897
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyButton.o
+x/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyButton.m295399719#295399719#0(0"0(0#0#74"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyButton.m4300911832#2142"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch -c "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyButton.m" -o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyButton.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyPoint.o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyPoint.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s294477869.704786
+e294477869.856684
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyPoint.o
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyPoint.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyPoint.m294477869#294477869#0(0"0(0#0#74"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyPoint.m2449078384#2151"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch -c "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/MyPoint.m" -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyPoint.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyPoint.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyPoint.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s295399719.044259
+e295399719.112394
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyPoint.o
+x/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyPoint.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyPoint.m295399719#295399719#0(0"0(0#0#73"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyPoint.m4300911832#2140"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch -c "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/MyPoint.m" -o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/MyPoint.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderAppDelegate.o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s294963836.194335
+e294963836.454834
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderAppDelegate.o
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderAppDelegate.m294963836#294963836#0(0"0(0#0#88"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderAppDelegate.m2535161888#2179"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch -c "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderAppDelegate.m" -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderAppDelegate.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderAppDelegate.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s295399718.949118
+e295399719.044154
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderAppDelegate.o
+x/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderAppDelegate.m295399718#295399719#0(0"0(0#0#87"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderAppDelegate.m4300911832#2168"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch -c "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderAppDelegate.m" -o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderAppDelegate.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderViewController.o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s295234610.013506
+e295234610.466764
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderViewController.o
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderViewController.m295234610#295234610#0(0"0(0#0#91"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderViewController.m2535161888#2185"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch -c "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/PathFinderViewController.m" -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderViewController.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderViewController.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s295399719.011369
+e295399719.293695
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderViewController.o
+x/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderViewController.m295399719#295399719#0(0"0(0#0#90"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderViewController.m4300911832#2174"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch -c "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/PathFinderViewController.m" -o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinderViewController.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Point.o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293773746.334742
+e293773746.422696
+r0
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Point.o
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.m:9:
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.h:13: error: 'Point' redeclared as different kind of symbol
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/MacTypes.h:522: error: previous declaration of 'Point'
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.h:15: error: redefinition of 'struct Point'
+lSLF07#2@80"Compile /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.m293773746#293773746#0(495"In file included from /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.m:9:/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.h:13: error: 'Point' redeclared as different kind of symbol/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/MacTypes.h:522: error: previous declaration of 'Point'/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.h:15: error: redefinition of 'struct Point'3(4@46"'Point' redeclared as different kind of symbol293773746#98#131#2(7@94"In file included from /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.m293773746#4294967295#0#0(6@72"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.m293773684#9#0#9#0#0"0(13@122"'Point' redeclared as different kind of symbol in /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.h293773746#4294967295#0#0(6@72"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.h293773662#13#0#13#0#0"0(6@72"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.h293773662#13#0#13#0#0"0(13@31"Previous declaration of 'Point'293773746#229#151#0(6@106"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/MacTypes.h290412029#522#0#522#0#0"0(4@30"Redefinition of 'struct Point'293773746#380#115#0(6@72"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.h293773662#15#0#15#0#19"redefinition of '*'0(0#0#72"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.m2449078384#2147"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch -c "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Point.m" -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Point.o"1#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Ramp.o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Ramp.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s294963447.714203
+e294963447.899612
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Ramp.o
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Ramp.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Ramp.m294963447#294963447#0(0"0(0#0#71"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Ramp.m2535161888#2145"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch -c "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Ramp.m" -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Ramp.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Ramp.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/Ramp.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s295399719.293811
+e295399719.359236
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Ramp.o
+x/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/Ramp.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/Ramp.m295399719#295399719#0(0"0(0#0#70"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/Ramp.m4300911832#2134"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch -c "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/Ramp.m" -o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Ramp.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Switch.o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s294637351.260243
+e294637351.370902
+r0
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Switch.o
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:9:17: error: Ramp.h: No such file or directory
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:14: warning: cannot find interface declaration for 'Ramp'
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:14: error: no declaration of property 'yStart' found in the interface
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:14: error: no declaration of property 'right' found in the interface
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m: In function '-[Ramp viewDidLoad]':
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:18: error: 'xOffsets' undeclared (first use in this function)
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:18: error: (Each undeclared identifier is reported only once
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:18: error: for each function it appears in.)
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m: In function '-[Ramp makeForPosition:]':
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:171: error: 'yStart' undeclared (first use in this function)
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m: In function '-[Ramp offsetForY:]':
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:214: error: 'yStart' undeclared (first use in this function)
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:217: error: 'right' undeclared (first use in this function)
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:219: error: 'xOffsets' undeclared (first use in this function)
+o/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:220: warning: control reaches end of non-void function
+lSLF07#2@81"Compile /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m294637351#294637351#0(1935"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:9:17: error: Ramp.h: No such file or directory/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:14: warning: cannot find interface declaration for 'Ramp'/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:14: error: no declaration of property 'yStart' found in the interface/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:14: error: no declaration of property 'right' found in the interface/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m: In function '-[Ramp viewDidLoad]':/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:18: error: 'xOffsets' undeclared (first use in this function)/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:18: error: (Each undeclared identifier is reported only once/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:18: error: for each function it appears in.)/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m: In function '-[Ramp makeForPosition:]':/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:171: error: 'yStart' undeclared (first use in this function)/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m: In function '-[Ramp offsetForY:]':/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:214: error: 'yStart' undeclared (first use in this function)/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:217: error: 'right' undeclared (first use in this function)/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:219: error: 'xOffsets' undeclared (first use in this function)/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m:220: warning: control reaches end of non-void function10(4@33"Ramp.h: No such file or directory294637351#0#121#0(6@73"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m294637344#9#0#9#0#28"*: No such file or directory0(22@44"Cannot find interface declaration for 'Ramp'294637351#121#132#0(6@73"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m294637344#14#0#14#0#0"0(4@58"No declaration of property 'yStart' found in the interface294637351#253#144#0(6@73"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m294637344#14#0#14#0#0"0(4@57"No declaration of property 'right' found in the interface294637351#397#143#0(6@73"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m294637344#14#0#14#0#0"0(4@50"'xOffsets' undeclared (first use in this function)294637351#650#136#0(6@73"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m294637344#18#0#18#0#43"'*' undeclared (first use in this function)0(4@48"'yStart' undeclared (first use in this function)294637351#1155#135#0(6@73"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m294637344#171#0#171#0#43"'*' undeclared (first use in this function)0(4@48"'yStart' undeclared (first use in this function)294637351#1400#135#0(6@73"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m294637344#214#0#214#0#43"'*' undeclared (first use in this function)0(4@47"'right' undeclared (first use in this function)294637351#1535#134#0(6@73"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m294637344#217#0#217#0#43"'*' undeclared (first use in this function)0(4@50"'xOffsets' undeclared (first use in this function)294637351#1669#137#0(6@73"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m294637344#219#0#219#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function294637351#1806#129#0(6@73"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m294637344#220#0#220#0#40"control reaches end of non-void function0(0#0#73"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m2449078384#2149"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch -c "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/Switch.m" -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/Switch.o"1#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/main.o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293772371.283308
+e293772371.405355
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/main.o
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/main.m293772371#293772371#0(0"0(0#0#63"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/main.m2449078384#2137"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch -c "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/main.m" -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/main.o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s295399718.948025
+e295399719.011263
+r1
+xCompileC
+xbuild/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/main.o
+x/Users/ebabchick/Downloads/untitled folder 3/PathFinder/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/ebabchick/Downloads/untitled folder 3/PathFinder/main.m295399718#295399719#0(0"0(0#0#62"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/main.m4300911832#2126"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -include /var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch -c "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/main.m" -o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.xib"
+s294477175.981000
+e294477177.038807
+r1
+xCompileXIB
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.xib
+lSLF07#2@31"CompileXIB Classes/DetailVC.xib294477175#294477177#0(0"0(0#0#77"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.xib2449078384#547"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/DetailVC.nib" "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/Classes/DetailVC.xib"0#
+
+CCompileXIB "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/MainWindow.xib"
+s293772365.530589
+e293772368.284221
+r1
+xCompileXIB
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib293772365#293772368#0(0"0(0#0#71"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/MainWindow.xib2449078384#543"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/MainWindow.nib" "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/MainWindow.xib"0#
+
+CCompileXIB "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/PathFinderViewController.xib"
+s294636117.758407
+e294636120.253756
+r1
+xCompileXIB
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/PathFinderViewController.xib
+lSLF07#2@39"CompileXIB PathFinderViewController.xib294636117#294636120#0(0"0(0#0#85"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/PathFinderViewController.xib4872912#571"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinderViewController.nib" "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/PathFinderViewController.xib"0#
+
+CCompileXIB "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/Classes/DetailVC.xib"
+r0
+
+CCompileXIB "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/PathFinderViewController.xib"
+r0
+
+CCpResource build/Debug-iphonesimulator/PathFinder.app/Background.png ../../../../Background.png
+s295399718.049706
+e295399718.056233
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/PathFinder.app/Background.png
+x../../../../Background.png
+opbxcp: Background.png: No such file or directory
+lSLF07#2@31"Copy ../../../../Background.png295399718#295399718#0(49"pbxcp: Background.png: No such file or directory1(4@48"pbxcp: Background.png: No such file or directory295399718#18446744073709551615#0#0(6@0"295399718#0#0#0#0#0"0(0#0#82"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/../../../../Background.png4300911832#530"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/../../../../Background.png" "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app"1#
+
+CCpResource build/Debug-iphonesimulator/PathFinder.app/Foreground.png ../../../../Foreground.png
+s295399718.050758
+e295399718.072417
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/PathFinder.app/Foreground.png
+x../../../../Foreground.png
+opbxcp: Foreground.png: No such file or directory
+lSLF07#2@31"Copy ../../../../Foreground.png295399718#295399718#0(49"pbxcp: Foreground.png: No such file or directory1(4@48"pbxcp: Foreground.png: No such file or directory295399718#18446744073709551615#0#0(6@0"295399718#0#0#0#0#0"0(0#0#82"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/../../../../Foreground.png4300911832#530"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/../../../../Foreground.png" "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app"1#
+
+CCpResource build/Debug-iphonesimulator/PathFinder.app/blue-ball.gif ../Rami/candy_balls/blue-ball.gif
+s295399718.047612
+e295399718.055804
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/PathFinder.app/blue-ball.gif
+x../Rami/candy_balls/blue-ball.gif
+o/Users/ebabchick/Downloads/untitled folder 3/PathFinder/../Rami/candy_balls: No such file or directory
+lSLF07#2@38"Copy ../Rami/candy_balls/blue-ball.gif295399718#295399718#0(211"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/../Rami/candy_balls: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1295399718#18446744073709551615#0#0(1@0"0(0#0#89"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/../Rami/candy_balls/blue-ball.gif4300911832#537"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/../Rami/candy_balls/blue-ball.gif" "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app"1#
+
+CCpResource build/Debug-iphonesimulator/PathFinder.app/selected.png selected.png
+s294478232.832547
+e294478232.914672
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PathFinder.app/selected.png
+xselected.png
+lSLF07#2@17"Copy selected.png294478232#294478232#0(0"0(0#0#69"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/selected.png2449078384#519"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/selected.png" "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app"0#
+
+CCpResource build/Debug-iphonesimulator/PathFinder.app/unselected.png unselected.png
+s294478232.834114
+e294478232.914989
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PathFinder.app/unselected.png
+xunselected.png
+lSLF07#2@19"Copy unselected.png294478232#294478232#0(0"0(0#0#71"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/unselected.png2449078384#521"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/unselected.png" "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app"0#
+
+CGenerateDSYMFile "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app.dSYM" "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder"
+s295234610.525506
+e295234610.727628
+r1
+xGenerateDSYMFile
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app.dSYM
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/PathFinder.app.dSYM build/Debug-iphonesimulator/PathFinder.app/PathFinder295234610#295234610#0(0"0(0#0#110"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder2535161888#452"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder" -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app.dSYM"0#
+
+CGenerateDSYMFile "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app.dSYM" "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder"
+s295399719.385404
+e295399719.405666
+r1
+xGenerateDSYMFile
+x/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app.dSYM
+x/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/PathFinder.app.dSYM build/Debug-iphonesimulator/PathFinder.app/PathFinder295399719#295399719#0(0"0(0#0#109"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder4300911832#449"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder" -o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app.dSYM"0#
+
+CLd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder" normal i386
+s295234610.466895
+e295234610.525363
+r1
+xLd
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder
+xnormal
+xi386
+lSLF07#2@115"Link /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder295234610#295234610#0(0"0(0#0#0"2535161888#977"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk "-L/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" "-F/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" -filelist "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinder.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder"0#
+
+CLd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder" normal i386
+s295399719.359336
+e295399719.385299
+r1
+xLd
+x/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder
+xnormal
+xi386
+lSLF07#2@114"Link /Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder295399719#295399719#0(0"0(0#0#0"4300911832#972"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk "-L/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator" "-F/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator" -filelist "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/Objects-normal/i386/PathFinder.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PathFinder"0#
+
+CProcessInfoPlistFile "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/Info.plist" PathFinder-Info.plist
+s293772467.647987
+e293772467.681746
+r1
+xProcessInfoPlistFile
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/Info.plist
+xPathFinder-Info.plist
+lSLF07#2@29"Process PathFinder-Info.plist293772467#293772467#0(0"0(0#0#78"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/PathFinder-Info.plist2449078384#548"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PathFinder-Info.plist -genpkginfo "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app/Info.plist"0#
+
+CProcessInfoPlistFile "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app/Info.plist" PathFinder-Info.plist
+r0
+
+CProcessPCH /var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch.gch PathFinder_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293772368.417542
+e293772371.283078
+r1
+xProcessPCH
+x/var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch.gch
+xPathFinder_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile PathFinder_Prefix.pch293772368#293772371#0(0"0(0#0#78"/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/PathFinder_Prefix.pch2449078384#2006"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -c "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/PathFinder_Prefix.pch" -o /var/folders/+O/+O384TERH-qVW+o+sWuIHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-bkulrtpvobwzrdallcebvlyjxhlp/PathFinder_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch.gch PathFinder_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s295399718.072536
+e295399718.947914
+r1
+xProcessPCH
+x/var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch.gch
+xPathFinder_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile PathFinder_Prefix.pch295399718#295399718#0(0"0(0#0#77"/Users/ebabchick/Downloads/untitled folder 3/PathFinder/PathFinder_Prefix.pch4300911832#1996"    cd "/Users/ebabchick/Downloads/untitled folder 3/PathFinder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-generated-files.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-own-target-headers.hmap" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-all-target-headers.hmap" -iquote "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/PathFinder-project-headers.hmap" "-F/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/include" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources/i386" "-I/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/PathFinder.build/Debug-iphonesimulator/PathFinder.build/DerivedSources" -c "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/PathFinder_Prefix.pch" -o /var/folders/AH/AHC9iBSfHxe5ZPW1SD6KJU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PathFinder_Prefix-fzlrpdvbinmlibbbthnpuhmfhchv/PathFinder_Prefix.pch.gch0#
+
+CTouch "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app"
+s295234610.727743
+e295234610.732936
+r1
+xTouch
+x/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app
+lSLF07#2@105"Touch /Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app295234610#295234610#0(0"0(0#0#0"2535161888#321"    cd "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Will/Desktop/Mac Programming/iPad/Rami/PathFinder/build/Debug-iphonesimulator/PathFinder.app"0#
+
+CTouch "/Users/ebabchick/Downloads/untitled folder 3/PathFinder/build/Debug-iphonesimulator/PathFinder.app"
+r0
+
